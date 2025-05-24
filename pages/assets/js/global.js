@@ -14,10 +14,10 @@ async function fetchVisitorCount() {
         if (!res.ok) throw new Error('Network response was not ok');
         const countText = await res.text();
         console.log({ countText });
-        document.getElementById('visitor-count').textContent = 'Visitor Count: ' + countText;
+        document.getElementById('visitor-count').textContent = 'Ziyarətçi sayı: ' + countText;
     } catch (error) {
         console.error('Visitor count fetch error:', error);
-        document.getElementById('visitor-count').textContent = 'Visitor Count: N/A';
+        document.getElementById('visitor-count').textContent = 'Ziyarətçi sayı: N/A';
     }
 }
 window.addEventListener('DOMContentLoaded', fetchVisitorCount);
