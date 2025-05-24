@@ -287,29 +287,16 @@
             </div>
         </section>
 
-
-
         <!-- Footer -->
         <footer class="footer-area" id="footer"></footer>
-
-
     </main>
-
 
     <script src="../assets/js/jquery-3.6.4.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/global.js"></script>
 
-    <script>
-        fetch('/partials/header.html')
-            .then(res => res.text())
-            .then(html => document.getElementById('header').innerHTML = html);
-
-        fetch('/partials/footer.html')
-            .then(res => res.text())
-            .then(html => document.getElementById('footer').innerHTML = html);
-    </script>
 </body>
 
 </html>
