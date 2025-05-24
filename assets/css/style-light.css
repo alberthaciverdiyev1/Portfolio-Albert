@@ -855,7 +855,7 @@ ol {
 
 
 .credential-area .credential-content .credential-about {
-    padding-bottom: 110px;
+    padding-bottom: 25px;
 }
 .credential-area .credential-edc-exp h2,
 .credential-area .credential-content .credential-about h2 {
@@ -878,13 +878,14 @@ ol {
 }
 .credential-area .credential-experience,
 .credential-area .credential-education {
-    margin-bottom: 85px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 .credential-area .credential-edc-exp h2 {
     margin-bottom: 22px;
 }
 .credential-area .credential-edc-exp .credential-edc-exp-item + .credential-edc-exp-item {
-    margin-top: 58px;
+    margin-top: 38px;
 }
 .credential-area .credential-edc-exp .credential-edc-exp-item h4 {
     color: #BCBCBC;
@@ -912,7 +913,8 @@ ol {
     font-size: 18px;
     color: #0f0f0f;
     text-transform: uppercase;
-    margin-bottom: 19px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 .credential-area .skills-wrap .skill-items {
     grid-template-columns: 1fr 1fr;
@@ -937,7 +939,8 @@ ol {
     margin: 0;
 }
 .credential-area .awards-wrap {
-    padding-top: 100px;
+    margin-top: 25px;
+    margin-bottom:25px;
 }
 .credential-area .awards-wrap.skills-wrap .skill-items {
     grid-template-columns: 1fr;
@@ -1931,4 +1934,29 @@ ol {
     .blog-details-area .blog-details-content .comments-and-form-wrap .comments .children {
         padding-left: 0;
     }
+}
+.black-color{
+    color: black !important;
+}
+.margin-left{
+    margin-left: 10px !important;
+}
+.margin-left-30{
+    margin-left: 30px !important;
+}
+.cv{
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background-color: white;
+    color: #5b78f6;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.backgroundColor='#5b78f6'; this.style.color='white'; this.style.boxShadow='0 12px 20px rgba(91, 120, 246, 0.5)';"
+    onmouseout="this.style.backgroundColor='white'; this.style.color='#5b78f6'; this.style.boxShadow='0 8px 15px rgba(0, 0, 0, 0.1)';
 }
