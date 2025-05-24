@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ana Səhifə </title>
+    <title>Albert => Portfolio</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,33 +26,7 @@
     <main class="main-homepage">
 
         <!-- Header -->
-        <header class="header-area">
-            <div class="container">
-                <div class="gx-row d-flex align-items-center justify-content-between">
-                    <a href="./index.html" class="logo">
-                        <h3 style="color: black;">Portfolio</h3>
-                    </a>
-
-                    <nav class="navbar">
-                        <ul class="menu">
-                            <li class="active"><a href="index.html">Ana Səhifə</a></li>
-                            <li><a href="about.html">Haqqımda</a></li>
-                            <li><a href="works.html">Layihələr</a></li>
-                            <li><a href="contact.html">Əlaqə</a></li>
-                        </ul>
-                        <a href="./contact.html" class="theme-btn">Mənimlə Əlaqə</a>
-                    </nav>
-
-                    <a href="./contact.html" class="theme-btn">Mənimlə Əlaqə</a>
-
-                    <div class="show-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <header class="header-area" id="header"> </header>
 
         <!-- About -->
         <section class="about-area">
@@ -92,8 +66,7 @@
                                 <div data-aos="zoom-in">
                                     <div class="about-crenditials-box info-box shadow-box h-full">
                                         <a class="overlay-link" href="./about.html"></a>
-                                        <img src="https://www.iwriteessays.com/image/aboutmejpg"
-                                            alt="Sign">
+                                        <img src="https://www.iwriteessays.com/image/aboutmejpg" alt="Sign">
                                         <div class="d-flex align-items-center justify-content-between">
                                             <div class="infos">
                                                 <h1>Detallı</h1>
@@ -242,29 +215,24 @@
         </section>
 
         <!-- Footer -->
-        <footer class="footer-area">
-            <div class="container">
-                <div class="footer-content text-center">
-                    <a href="./index.html" class="logo">
-                        <h4>ALBERT HACİVERDİYEV</h4>
-                    </a>
-                    <ul class="footer-menu">
-                        <li><a href="index.html">Ana Səhifə</a></li>
-                        <li><a href="about.html">Haqqımda</a></li>
-                        <li><a href="works.html">Layihələr</a></li>
-                        <li><a href="contact.html">Əlaqə</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+        <footer class="footer-area" id="footer"></footer>
 
     </main>
-
 
     <script src="../assets/js/jquery-3.6.4.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/main.js"></script>
+
+    <script>
+        fetch('/partials/header.html')
+            .then(res => res.text())
+            .then(html => document.getElementById('header').innerHTML = html);
+
+        fetch('/partials/footer.html')
+            .then(res => res.text())
+            .then(html => document.getElementById('footer').innerHTML = html);
+    </script>
 </body>
 
 </html>
