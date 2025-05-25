@@ -20,4 +20,7 @@ async function fetchVisitorCount() {
         document.getElementById('visitor-count').textContent = 'Ziyarətçi sayı: N/A';
     }
 }
-window.addEventListener('DOMContentLoaded', fetchVisitorCount);
+
+window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(fetchVisitorCount, 5000);
+});
