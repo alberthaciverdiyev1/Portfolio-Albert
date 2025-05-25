@@ -10,7 +10,7 @@ fetch('/partials/footer.html')
 async function fetchVisitorCount() {
     try {
         const res = await fetch('/visitors');
-        console.log(res);
+
         if (!res.ok) throw new Error('Network response was not ok');
         const countText = await res.text();
         console.log({ countText });
