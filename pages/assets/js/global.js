@@ -22,5 +22,5 @@ async function fetchVisitorCount() {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    setTimeout(fetchVisitorCount, 5000);
+    setTimeout(fetchVisitorCount, 3000);
 });
