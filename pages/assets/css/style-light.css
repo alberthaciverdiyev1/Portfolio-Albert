@@ -291,6 +291,12 @@ ol {
     gap: 25px;
     margin-bottom: 50px;
     margin-top: 40px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    z-index: 9;
+    max-width: 100%;
 }
 
 .info-box.about-services-box .icon-boxes i {
@@ -1784,6 +1790,12 @@ ol {
         margin-bottom: 39px;
         gap: 30px;
         margin-top: 31px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding-bottom: 10px;
+        z-index: 9;
+        max-width: 100%;
     }
 
     .icon-boxes img {
@@ -1882,6 +1894,12 @@ ol {
 
     .info-box.about-services-box .icon-boxes {
         gap: 10px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding-bottom: 10px;
+        z-index: 9;
+        max-width: 100%;
     }
 
     .info-box.about-services-box .icon-boxes img {
@@ -2083,11 +2101,13 @@ ol {
 
     .icon-boxes {
         display: flex;
-        gap: 20px;
+        gap: 10px;
         overflow-x: auto;
+        overflow-y: hidden;
         white-space: nowrap;
         padding-bottom: 10px;
-        /* scroll bar için boşluk */
+        z-index: 9;
+        max-width: 100%;
     }
 
     .icon-boxes img {
@@ -2258,8 +2278,16 @@ ol {
     }
 
     .info-box.about-services-box .icon-boxes {
+        display: flex;
         gap: 25px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding-bottom: 10px;
+        z-index: 9;
+        max-width: 100%;
     }
+
 
     .info-box.about-services-box .icon-boxes i {
         font-size: 30px;
