@@ -2321,7 +2321,7 @@ ol {
     text-decoration: none;
     text-align: center;
     transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); */
 }
 
 .cv:hover {
