@@ -58,7 +58,6 @@ if (page === 'projects') {
                   </a>
                 </div>
                 <h2><a href="javascript:void(0)" data-project-id="${p.id}">${t(p.title)}</a></h2>
-                <p>${t(p.intro) || t((p as any).description)}</p>
                 <div class="project-card-stack">
                   ${(p.stack || (p as any).tags || []).slice(0, 3).map((s: string) => `<span>${s}</span>`).join('')}
                 </div>
