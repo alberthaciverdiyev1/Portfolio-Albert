@@ -1555,7 +1555,7 @@
       "featured": false,
       "liveUrl": "https://car.kibriskare.com",
       "githubUrl": "https://github.com/alberthaciverdiyev1/car.kibriskare.com",
-      "image": "/images/screenshot_20260924_115455-1790236511522.webp",
+      "image": "/images/project-kibriskare.webp",
       "tags": [
         "Laravel",
         "Filament",
@@ -1607,7 +1607,7 @@
       "featured": false,
       "liveUrl": "https://www.cyberjob.az/",
       "githubUrl": "https://github.com/alberthaciverdiyev1/CyberJob",
-      "image": "/images/screenshot_20260924_115148-1790236328045.webp",
+      "image": "/images/project-cyberjob.webp",
       "tags": [
         ".Net Core MVC",
         "PostgreSql",
@@ -1763,7 +1763,7 @@
       "featured": false,
       "liveUrl": "https://bpa.az",
       "githubUrl": "https://bpa.az",
-      "image": "/images/screenshot_20260924_115853-1790236752292.webp",
+      "image": "/images/project-corporate.webp",
       "tags": [
         "Laravel",
         "Php",
@@ -1813,7 +1813,7 @@
       "featured": false,
       "liveUrl": "https://caspianlighting.az/az",
       "githubUrl": "",
-      "image": "/images/screenshot_20260924_114954-1790236219453.webp",
+      "image": "/images/project-caspianlighting.webp",
       "tags": [
         "Laravel",
         "Nwidart",
@@ -1861,7 +1861,7 @@
       "featured": false,
       "liveUrl": "https://tesoro.az",
       "githubUrl": "https://github.com/alberthaciverdiyev1/Tosero",
-      "image": "/images/screenshot_20260924_114423-1790235887099.webp",
+      "image": "/images/project-tesoro.webp",
       "tags": [
         "Laravel",
         "Livewire",
@@ -2174,7 +2174,7 @@
       "featured": false,
       "liveUrl": "https://youmedia.az/",
       "githubUrl": "https://github.com/alberthaciverdiyev1/youmedia-private",
-      "image": "/images/screenshot_20260924_120226-1790236963738.webp",
+      "image": "/images/project-corporate.webp",
       "tags": [
         "PHP",
         "Laravel",
