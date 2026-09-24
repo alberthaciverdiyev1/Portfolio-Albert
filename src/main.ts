@@ -291,8 +291,9 @@ function render() {
   initNavigation('home');
 }
 
-// Canlı veriyi çek, sonra render et (admin panel değişiklikleri anında yansısın).
-(async () => {
-  await loadData();
+// Instant initial render; async update when live API data resolves
+render();
+loadData().then(() => {
   render();
-})();
+});
+

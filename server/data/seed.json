@@ -464,7 +464,7 @@
     "githubUrl": "https://github.com/alberthaciverdiyev1",
     "linkedin": "Albert Hajiverdiyev",
     "linkedinUrl": "https://www.linkedin.com/in/albert-hajiverdiyev/",
-    "avatar": "/images/avatar.png",
+    "avatar": "/images/avatar.webp",
     "cvPdf": "/Albert-Hajiverdiyev-CV.pdf",
     "summary": {
       "az": "PHP (Laravel, CodeIgniter 3), .NET Core və Go texnologiyaları üzrə ixtisaslaşmış, 4 ildən artıq təcrübəyə malik Backend Developer. E-ticarət platformaları və təhsil sistemləri üçün RESTful API-lərin hazırlanması, MySQL və PostgreSQL ilə mürəkkəb verilənlər bazası strukturlarının idarə olunması təcrübəsinə malikdir. Sistem sabitliyi və yüksək performans üçün uçdan-uca server konfiqurasiyası və Linux deployment proseslərini icra edir. NS Studio, The Projects of Azerbaijan, Ishesabi MMC və Flup MMC daxilində müxtəlif sektorlar üçün möhkəm backend infrastrukturları qurmuşdur.",
@@ -1043,7 +1043,7 @@
       "featured": false,
       "liveUrl": "https://kibriskare.com",
       "githubUrl": "https://github.com/alberthaciverdiyev1/Metraj.az",
-      "image": "/images/project-kibriskare.png",
+      "image": "/images/project-kibriskare.webp",
       "tags": [
         "Laravel",
         "Blade",
@@ -1095,7 +1095,7 @@
       "repoName": "NS-Studio-LLC/Ayna-Loyalliq-Backend",
       "githubUrl": "https://github.com/alberthaciverdiyev1",
       "category": "dotnet",
-      "image": "/images/project-corporate.png",
+      "image": "/images/project-corporate.webp",
       "type": {
         "az": "Enterprise .NET · Loyallıq",
         "en": "Enterprise .NET · Loyalty",
@@ -1150,7 +1150,7 @@
       "repoName": "NS-Studio-LLC/Savadbackend",
       "githubUrl": "https://github.com/alberthaciverdiyev1",
       "category": "enterprise",
-      "image": "/images/project-education.png",
+      "image": "/images/project-education.webp",
       "type": {
         "az": "Təhsil Sistemi · LMS",
         "en": "Education Platform · LMS",
@@ -1206,7 +1206,7 @@
       "featured": false,
       "liveUrl": "https://teymurstore.az/",
       "githubUrl": "https://github.com/alberthaciverdiyev1/TeymurStore",
-      "image": "/images/project-teymurstore.png",
+      "image": "/images/project-teymurstore.webp",
       "tags": [
         "Laravel",
         "Nwidart",
@@ -1258,7 +1258,7 @@
       "liveUrl": "https://hostinq.az/en/",
       "githubUrl": "https://hostinq.az/en/",
       "repoName": "hostinq.az",
-      "image": "/images/project-hostinq-az.png",
+      "image": "/images/project-hostinq-az.webp",
       "type": {
         "az": "Korporativ · Hostinq",
         "en": "Corporate · Web Hosting",
@@ -1318,7 +1318,7 @@
       "liveUrl": "https://new.jobing.az",
       "githubUrl": "https://new.jobing.az",
       "repoName": "new.jobing.az",
-      "image": "/images/project-jobing-az.png",
+      "image": "/images/project-jobing-az.webp",
       "type": {
         "az": "Vakansiya Platforması",
         "en": "Job Board Platform",
@@ -1379,7 +1379,7 @@
       "liveUrl": "https://ishesabi.com",
       "githubUrl": "https://ishesabi.com",
       "repoName": "ishesabi.com",
-      "image": "/images/project-ishesabi.png",
+      "image": "/images/project-ishesabi.webp",
       "type": {
         "az": "SaaS · Biznes İdarəetmə",
         "en": "SaaS · Business Management",
@@ -1440,7 +1440,7 @@
       "liveUrl": "https://ticarx.com",
       "githubUrl": "https://ticarx.com",
       "repoName": "ticarx.com",
-      "image": "/images/project-ticarx.png",
+      "image": "/images/project-ticarx.webp",
       "type": {
         "az": "SaaS · E-ticarət Platforması",
         "en": "SaaS · E-commerce Platform",
@@ -1499,7 +1499,7 @@
       "repoName": "alberthaciverdiyev1/LuxTaxiWithBackend",
       "githubUrl": "https://github.com/alberthaciverdiyev1/LuxTaxiWithBackend",
       "category": "backend",
-      "image": "/images/project-corporate.png",
+      "image": "/images/project-corporate.webp",
       "type": {
         "az": "Nəqliyyat & Dispetçer",
         "en": "Transport & Dispatch Engine",
@@ -1555,7 +1555,7 @@
       "featured": false,
       "liveUrl": "https://car.kibriskare.com",
       "githubUrl": "https://github.com/alberthaciverdiyev1/car.kibriskare.com",
-      "image": "/images/screenshot_20260924_115455-1790236511522.png",
+      "image": "/images/screenshot_20260924_115455-1790236511522.webp",
       "tags": [
         "Laravel",
         "Filament",
@@ -1607,7 +1607,7 @@
       "featured": false,
       "liveUrl": "https://www.cyberjob.az/",
       "githubUrl": "https://github.com/alberthaciverdiyev1/CyberJob",
-      "image": "/images/screenshot_20260924_115148-1790236328045.png",
+      "image": "/images/screenshot_20260924_115148-1790236328045.webp",
       "tags": [
         ".Net Core MVC",
         "PostgreSql",
@@ -1659,7 +1659,7 @@
       "featured": false,
       "liveUrl": "https://idealservice.az/",
       "githubUrl": "https://idealservice.az/",
-      "image": "/images/project-idealservice.png",
+      "image": "/images/project-idealservice.webp",
       "tags": [
         ".Net Core",
         "Clean Architecture",
@@ -1712,7 +1712,7 @@
       "featured": false,
       "liveUrl": "https://ascend.az/",
       "githubUrl": "https://ascend.az/",
-      "image": "/images/project-ascend.png",
+      "image": "/images/project-ascend.webp",
       "tags": [
         "Laravel",
         "Livewire",
@@ -1763,7 +1763,7 @@
       "featured": false,
       "liveUrl": "https://bpa.az",
       "githubUrl": "https://bpa.az",
-      "image": "/images/screenshot_20260924_115853-1790236752292.png",
+      "image": "/images/screenshot_20260924_115853-1790236752292.webp",
       "tags": [
         "Laravel",
         "Php",
@@ -1813,7 +1813,7 @@
       "featured": false,
       "liveUrl": "https://caspianlighting.az/az",
       "githubUrl": "",
-      "image": "/images/screenshot_20260924_114954-1790236219453.png",
+      "image": "/images/screenshot_20260924_114954-1790236219453.webp",
       "tags": [
         "Laravel",
         "Nwidart",
@@ -1861,7 +1861,7 @@
       "featured": false,
       "liveUrl": "https://tesoro.az",
       "githubUrl": "https://github.com/alberthaciverdiyev1/Tosero",
-      "image": "/images/screenshot_20260924_114423-1790235887099.png",
+      "image": "/images/screenshot_20260924_114423-1790235887099.webp",
       "tags": [
         "Laravel",
         "Livewire",
@@ -1911,7 +1911,7 @@
       "repoName": "alberthaciverdiyev1/TamStore",
       "githubUrl": "https://tamstore.ccc.az/",
       "category": "ecommerce",
-      "image": "/images/project-tamstore.png",
+      "image": "/images/project-tamstore.webp",
       "type": {
         "az": "Onlayn Mağaza · Blade & Admin",
         "en": "Online Store · Blade & Admin",
@@ -1965,7 +1965,7 @@
       "repoName": "alberthaciverdiyev1/menu.KibrisKare.com",
       "githubUrl": "https://menu.kibriskare.com/",
       "category": "backend",
-      "image": "/images/project-ecommerce.png",
+      "image": "/images/project-ecommerce.webp",
       "type": {
         "az": "Restoran & QR Menyu",
         "en": "Restaurant QR Menu SaaS",
@@ -2021,7 +2021,7 @@
       "featured": false,
       "liveUrl": "https://evet.az/",
       "githubUrl": "https://evet.az/",
-      "image": "/images/project-evet.png",
+      "image": "/images/project-evet.webp",
       "tags": [
         ".Net MVC",
         "Cshtml",
@@ -2069,7 +2069,7 @@
       "featured": false,
       "liveUrl": "",
       "githubUrl": "http://royastar.name.az/",
-      "image": "/images/project-royastar.png",
+      "image": "/images/project-royastar.webp",
       "tags": [
         "PHP",
         "Laravel",
@@ -2119,7 +2119,7 @@
       "repoName": "NS-Studio-LLC/ikili2",
       "githubUrl": "https://ikili2.com/",
       "category": "ecommerce",
-      "image": "/images/project-ikili2.png",
+      "image": "/images/project-ikili2.webp",
       "type": {
         "az": "E-Ticarət & Pərakəndə",
         "en": "Retail & E-Commerce",
@@ -2174,7 +2174,7 @@
       "featured": false,
       "liveUrl": "https://youmedia.az/",
       "githubUrl": "https://github.com/alberthaciverdiyev1/youmedia-private",
-      "image": "/images/screenshot_20260924_120226-1790236963738.png",
+      "image": "/images/screenshot_20260924_120226-1790236963738.webp",
       "tags": [
         "PHP",
         "Laravel",
@@ -2223,7 +2223,7 @@
       "repoName": "alberthaciverdiyev1/GoldenFruit",
       "githubUrl": "https://github.com/alberthaciverdiyev1/GoldenFruit",
       "category": "dotnet",
-      "image": "/images/project-corporate.png",
+      "image": "/images/project-corporate.webp",
       "type": {
         "az": "Kənd Təsərrüfatı & İxrac",
         "en": "Agri-Business & Export",
@@ -2277,7 +2277,7 @@
       "repoName": "alberthaciverdiyev1/JobHunt-.NET-Core",
       "githubUrl": "https://github.com/alberthaciverdiyev1/JobHunt-.NET-Core",
       "category": "dotnet",
-      "image": "/images/project-corporate.png",
+      "image": "/images/project-corporate.webp",
       "type": {
         "az": "Vakansiya Platforması · .NET",
         "en": "Recruitment Suite · .NET",
@@ -2331,7 +2331,7 @@
       "repoName": "alberthaciverdiyev1/ChartDB-Chrome-Extension",
       "githubUrl": "https://github.com/alberthaciverdiyev1/ChartDB-Chrome-Extension",
       "category": "tools",
-      "image": "/images/project-corporate.png",
+      "image": "/images/project-corporate.webp",
       "type": {
         "az": "Developer Aləti · Extension",
         "en": "Dev Tool · Chrome Extension",
@@ -2384,7 +2384,7 @@
       "repoName": "alberthaciverdiyev1/JobScraperForAzSites",
       "githubUrl": "https://github.com/alberthaciverdiyev1/JobScraperForAzSites",
       "category": "tools",
-      "image": "/images/project-corporate.png",
+      "image": "/images/project-corporate.webp",
       "type": {
         "az": "Avtomatlaşdırma & Botlar · ETL",
         "en": "Automation & Bots · ETL Suite",
@@ -2443,7 +2443,7 @@
       "liveUrl": "https://avtosistem.az",
       "githubUrl": "https://avtosistem.az",
       "repoName": "avtosistem.az",
-      "image": "/images/project-avtosistem.png",
+      "image": "/images/project-avtosistem.webp",
       "type": {
         "az": "E-ticarət · Avto Hissələri",
         "en": "E-commerce · Auto Parts",
@@ -2503,7 +2503,7 @@
       "liveUrl": "https://generalelevator.az",
       "githubUrl": "https://generalelevator.az",
       "repoName": "generalelevator.az",
-      "image": "/images/project-generalelevator.png",
+      "image": "/images/project-generalelevator.webp",
       "type": {
         "az": "Korporativ · Lift Sistemləri",
         "en": "Corporate · Elevator Systems",
@@ -2562,7 +2562,7 @@
       "liveUrl": "https://www.zenith.az",
       "githubUrl": "https://www.zenith.az",
       "repoName": "zenith.az",
-      "image": "/images/project-zenith.png",
+      "image": "/images/project-zenith.webp",
       "type": {
         "az": "E-ticarət · Zərgərlik",
         "en": "E-commerce · Fine Jewelry",
@@ -2622,7 +2622,7 @@
       "liveUrl": "https://goksankablo.az",
       "githubUrl": "https://goksankablo.az",
       "repoName": "goksankablo.az",
-      "image": "/images/project-goksankablo.png",
+      "image": "/images/project-goksankablo.webp",
       "type": {
         "az": "Korporativ · Kabel İstehsalatı",
         "en": "Corporate · Cable Manufacturing",
@@ -2681,7 +2681,7 @@
       "liveUrl": "https://khazarcable.com",
       "githubUrl": "https://khazarcable.com",
       "repoName": "khazarcable.com",
-      "image": "/images/project-khazarcable.png",
+      "image": "/images/project-khazarcable.webp",
       "type": {
         "az": "E-ticarət · Elektrik Kabelləri",
         "en": "E-commerce · Electrical Cables",
@@ -2741,7 +2741,7 @@
       "liveUrl": "https://eco-star.az",
       "githubUrl": "https://eco-star.az",
       "repoName": "eco-star.az",
-      "image": "/images/project-ecostar.png",
+      "image": "/images/project-ecostar.webp",
       "type": {
         "az": "E-ticarət · Təmizlik Məhsulları",
         "en": "E-commerce · Cleaning Products",
@@ -2800,7 +2800,7 @@
       "liveUrl": "https://play.google.com/store/apps/details?id=com.app.mhm",
       "githubUrl": "https://play.google.com/store/apps/details?id=com.app.mhm",
       "repoName": "MHM Qonaq",
-      "image": "/images/project-mhm.png",
+      "image": "/images/project-mhm.webp",
       "type": {
         "az": "Mobil Tətbiq · Android",
         "en": "Mobile App · Android",
@@ -2859,7 +2859,7 @@
       "liveUrl": "https://play.google.com/store/apps/details?id=com.app.mhm.kurd",
       "githubUrl": "https://play.google.com/store/apps/details?id=com.app.mhm.kurd",
       "repoName": "MHM Kurs",
-      "image": "/images/project-mhm-kurd.png",
+      "image": "/images/project-mhm-kurd.webp",
       "type": {
         "az": "Mobil Tətbiq · Təhsil",
         "en": "Mobile App · Education",
@@ -2918,7 +2918,7 @@
       "liveUrl": "https://mamedbp.com",
       "githubUrl": "https://mamedbp.com",
       "repoName": "mamedbp.com",
-      "image": "/images/project-mamedbp.png",
+      "image": "/images/project-mamedbp.webp",
       "type": {
         "az": "Korporativ · Səs Avadanlıqları",
         "en": "Corporate · Audio Equipment",
@@ -2977,7 +2977,7 @@
       "liveUrl": "https://lili.az",
       "githubUrl": "https://lili.az",
       "repoName": "lili.az",
-      "image": "/images/project-lili-az.png",
+      "image": "/images/project-lili-az.webp",
       "type": {
         "az": "Marketplace · Çatdırılma",
         "en": "Marketplace · Delivery",
