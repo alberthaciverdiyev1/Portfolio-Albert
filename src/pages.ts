@@ -39,11 +39,11 @@ if (page === 'projects') {
         <div class="project-card-grid">
           ${projects.map((p, i) => {
             const num = (i + 1) < 10 ? `0${i + 1}` : `${i + 1}`;
-            const githubUrl = (p as any).githubUrl || '';
-            const liveUrl = (p as any).liveUrl || '';
-            const isGithub = githubUrl.includes('github.com');
-            const link = isGithub ? githubUrl : (liveUrl || githubUrl);
-            const linkLabel = isGithub ? 'GitHub' : (t(ui.projects.visitSite) || 'Site');
+            const pAny = p as any;
+            const liveUrl = pAny.liveUrl || '';
+            const githubUrl = pAny.githubUrl || '';
+            const mainLink = liveUrl || githubUrl || '#';
+            const linkLabel = liveUrl ? 'Site' : 'GitHub';
             return `
             <article class="project-card" data-category="${p.category || 'all'}">
               <div class="project-card-media" role="button" data-project-id="${p.id}" tabindex="0">
@@ -53,21 +53,21 @@ if (page === 'projects') {
               <div class="project-card-copy">
                 <div class="project-card-meta">
                   <span class="project-card-num">${num}</span>
-                  <a class="project-github-pill" href="${link}" target="_blank" rel="noreferrer" title="${linkLabel}">
+                  <a class="project-github-pill" href="${mainLink}" target="_blank" rel="noreferrer" title="${linkLabel}">
                     <span>${linkLabel}</span> ↗
                   </a>
                 </div>
                 <h2><a href="javascript:void(0)" data-project-id="${p.id}">${t(p.title)}</a></h2>
                 <div class="project-card-stack">
-                  ${(p.stack || (p as any).tags || []).slice(0, 3).map((s: string) => `<span>${s}</span>`).join('')}
+                  ${(p.stack || pAny.tags || []).slice(0, 3).map((s: string) => `<span>${s}</span>`).join('')}
                 </div>
                 <div class="project-card-footer">
                   <button class="card-detail-btn" type="button" data-project-id="${p.id}">
                     <span>${t(ui.projects.detailBtn)}</span>
                     <span class="arrow-move">→</span>
                   </button>
-                  <a class="card-repo-btn" href="${link}" target="_blank" rel="noreferrer">
-                    ${isGithub ? t(ui.projects.repoBtn) : (t(ui.projects.visitSite) || 'Site')} ↗
+                  <a class="card-repo-btn" href="${mainLink}" target="_blank" rel="noreferrer">
+                    ${linkLabel} ↗
                   </a>
                 </div>
               </div>

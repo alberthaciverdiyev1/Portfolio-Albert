@@ -154,12 +154,20 @@ export function initProjectModal() {
       const pAny = p as any;
       const stackList = Array.isArray(pAny.stack) ? pAny.stack : Array.isArray(pAny.tags) ? pAny.tags : [];
       stackEl.innerHTML = stackList.map((s: string) => `<span>${s}</span>`).join('');
+      const liveUrl = pAny.liveUrl || '';
       const githubUrl = pAny.githubUrl || '';
-      const isGithub = githubUrl.includes('github.com');
-      const link = isGithub ? githubUrl : (pAny.liveUrl || githubUrl || '#');
-      repoBtn.href = link;
-      const linkLabel = isGithub ? t(ui.projects.githubView) : (t(ui.projects.visitSite) || 'Site');
-      repoBtn.textContent = `${linkLabel} (${pAny.repoName || p.id}) ↗`;
+      const modalFooter = modal.querySelector<HTMLElement>('.modal-footer')!;
+      let buttonsHtml = '';
+      if (liveUrl) {
+        buttonsHtml += `<a class="button primary" href="${liveUrl}" target="_blank" rel="noreferrer">Siteyə Git ↗</a>`;
+      }
+      if (githubUrl) {
+        buttonsHtml += `<a class="button secondary" href="${githubUrl}" target="_blank" rel="noreferrer">GitHub Repo ↗</a>`;
+      }
+      if (!buttonsHtml) {
+        buttonsHtml = `<a class="button primary" href="#" target="_blank" rel="noreferrer">Detail ↗</a>`;
+      }
+      modalFooter.innerHTML = buttonsHtml;
 
       modal.classList.add('active');
       modal.setAttribute('aria-hidden', 'false');
