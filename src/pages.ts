@@ -169,30 +169,64 @@ if (page === 'projects') {
       )}
 
       <section class="container about-section">
-        <!-- ABOUT PROFILE INTRO WITH AVATAR -->
-        <div class="about-intro-card">
-          <div class="intro-headline">
-            <div class="about-avatar-row">
-              <img src="${profile.avatar}" alt="${profile.name}" class="about-avatar-sm" />
-              <div>
-                <h2>${profile.name}</h2>
-                <span class="about-role-tag">${t(profile.role)}</span>
+        <!-- MASTER PROFILE CARD -->
+        <div class="about-hero-card">
+          <div class="about-profile-sidebar">
+            <div class="about-avatar-frame">
+              <img src="${profile.avatar}" alt="${profile.name}" class="about-avatar-img" />
+              <div class="about-status-indicator">
+                <span class="status-dot"></span>
+                <span>${t(ui.contact.statusDesc) || 'Available for high-impact roles'}</span>
               </div>
             </div>
-            <div class="about-quick-meta">
-              <span>${icon('pin')} ${t(profile.location)}</span>
-              <span>${icon('phone')} ${profile.phone}</span>
-              <span>${icon('mail')} ${profile.email}</span>
+            
+            <div class="about-quick-actions">
+              <a class="button primary about-cv-btn" href="${profile.cvPdf}" target="_blank" rel="noreferrer">
+                <span>${t(ui.nav.cvButton)}</span>
+                <span class="icon">↗</span>
+              </a>
+              <div class="about-contact-pills">
+                <a href="mailto:${profile.email}" class="contact-pill" title="Email">
+                  ${icon('mail')} <span>${profile.email}</span>
+                </a>
+                <a href="tel:${profile.phoneRaw}" class="contact-pill" title="Phone">
+                  ${icon('phone')} <span>${profile.phone}</span>
+                </a>
+                <span class="contact-pill">
+                  ${icon('pin')} <span>${t(profile.location)}</span>
+                </span>
+              </div>
             </div>
           </div>
-          <div class="intro-text">
-            <span class="eyebrow">${t(ui.about.summaryHeading)}</span>
-            <p>${t(profile.summary)}</p>
+
+          <div class="about-profile-main">
+            <div class="about-title-block">
+              <span class="eyebrow">${t(ui.about.eyebrow)}</span>
+              <h2>${profile.name}</h2>
+              <div class="about-role-headline">${t(profile.role)}</div>
+            </div>
+
+            <div class="about-bio-text">
+              <span class="points-label">${t(ui.about.summaryHeading)}</span>
+              <p>${t(profile.summary)}</p>
+            </div>
+
+            <div class="about-social-links">
+              <a href="${profile.githubUrl}" target="_blank" rel="noreferrer" class="about-social-btn">
+                ${icon('github')} <span>GitHub</span> ↗
+              </a>
+              <a href="${profile.linkedinUrl}" target="_blank" rel="noreferrer" class="about-social-btn">
+                ${icon('linkedin')} <span>LinkedIn</span> ↗
+              </a>
+              <a href="/contact.html" class="about-social-btn about-contact-link">
+                ${icon('mail')} <span>${t(ui.nav.contact)}</span> →
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- HIGHLIGHTS / QUICK METRICS (Identical to home page, from data.json) -->
-        <div class="metrics-grid" style="margin: 36px 0; border: none; padding: 0;">
+        <!-- HIGHLIGHTS / QUICK METRICS -->
+        <div class="metrics-grid about-metrics-grid">
           ${metrics.map(m => `
             <div class="metric-card">
               <span class="metric-num">${m.num}</span>
@@ -202,7 +236,7 @@ if (page === 'projects') {
           `).join('')}
         </div>
 
-        <!-- 4 FOCUS AREAS (From data.json) -->
+        <!-- 4 FOCUS AREAS -->
         <div class="focus-grid">
           ${focusAreas.map(fa => `
             <div class="focus-card">
@@ -213,7 +247,7 @@ if (page === 'projects') {
           `).join('')}
         </div>
 
-        <!-- TECHNICAL SKILLS (From data.json) -->
+        <!-- TECHNICAL SKILLS -->
         <div class="about-skills-block">
           <div class="block-head">
             <span class="eyebrow">${t(ui.sections.skillsEyebrow)}</span>
@@ -231,16 +265,21 @@ if (page === 'projects') {
           </div>
         </div>
 
-        <!-- ALL 5 EDUCATION ENTRIES + LANGUAGES (Identical to home page, from data.json) -->
+        <!-- ALL 5 EDUCATION ENTRIES + LANGUAGES -->
         <div class="credentials-grid">
           <div class="credential-card">
             <span class="eyebrow">${t(ui.about.educationHeading)}</span>
-            ${educations.map(ed => `
-              <div class="cred-item">
-                <h3>${t(ed.degree)}</h3>
-                <p><strong>${ed.institution}</strong> · <span>${ed.period}</span> (${t(ed.status)})</p>
-              </div>
-            `).join('')}
+            <div class="cred-items-wrap">
+              ${educations.map(ed => `
+                <div class="cred-item">
+                  <div class="cred-item-header">
+                    <h3>${t(ed.degree)}</h3>
+                    <span class="cred-status-tag">${t(ed.status)}</span>
+                  </div>
+                  <p class="cred-institution"><strong>${ed.institution}</strong> · <span>${ed.period}</span></p>
+                </div>
+              `).join('')}
+            </div>
           </div>
 
           <div class="credential-card">
