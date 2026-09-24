@@ -1,0 +1,35 @@
+{
+  "name": "albert-hajiverdiyev-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "predev": "npm run db:export",
+    "server": "tsx watch server/index.ts",
+    "preserver": "npm run db:export",
+    "admin": "tsx server/index.ts",
+    "preadmin": "npm run db:export",
+    "dev:all": "tsx watch server/index.ts & vite --host 0.0.0.0",
+    "predev:all": "npm run db:export",
+    "build": "tsc && vite build",
+    "prebuild": "npm run db:export",
+    "preview": "vite preview --host 0.0.0.0",
+    "db:migrate": "tsx scripts/db-migrate.ts",
+    "db:export": "tsx scripts/db-export.ts"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  }
+}

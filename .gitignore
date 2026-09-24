@@ -1,0 +1,30 @@
+# Bagimliliklar
+node_modules/
+
+# Build ciktilari
+dist/
+
+# SQLite veritabani (runtime; seed.json'dan uretilir)
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+
+# Frontend icin uretilen JSON (SQLite'tan uretilir: npm run db:export)
+src/data.json
+
+# Otomatik yedekler
+server/backups/
+
+# Ortam / sirlar
+.env
+.env.*
+*.local
+
+# Loglar
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

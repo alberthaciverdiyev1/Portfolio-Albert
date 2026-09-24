@@ -1,0 +1,3034 @@
+{
+  "ui": {
+    "nav": {
+      "home": {
+        "az": "Ana Səhifə",
+        "en": "Home",
+        "tr": "Ana Sayfa"
+      },
+      "projects": {
+        "az": "Layihələr",
+        "en": "Projects",
+        "tr": "Projeler"
+      },
+      "experience": {
+        "az": "Təcrübə",
+        "en": "Experience",
+        "tr": "Deneyim"
+      },
+      "about": {
+        "az": "Haqqımda",
+        "en": "About",
+        "tr": "Hakkımda"
+      },
+      "contact": {
+        "az": "Əlaqə",
+        "en": "Contact",
+        "tr": "İletişim"
+      },
+      "cvButton": {
+        "az": "CV (PDF)",
+        "en": "CV (PDF)",
+        "tr": "CV (PDF)"
+      }
+    },
+    "hero": {
+      "viewProjects": {
+        "az": "Layihələri İncələ",
+        "en": "View Projects",
+        "tr": "Projeleri İncele"
+      },
+      "contactMe": {
+        "az": "Əlaqə Qur",
+        "en": "Get in Touch",
+        "tr": "İletişime Geç"
+      },
+      "downloadCv": {
+        "az": "CV-ni Yüklə (PDF)",
+        "en": "Download CV (PDF)",
+        "tr": "CV'yi İndir (PDF)"
+      }
+    },
+    "sections": {
+      "featuredProjectsEyebrow": {
+        "az": "01 / Portfolyo",
+        "en": "01 / Portfolio",
+        "tr": "01 / Portfolyo"
+      },
+      "featuredProjectsTitle": {
+        "az": "Önə Çıxan Real Layihələr",
+        "en": "Featured Production Projects",
+        "tr": "Öne Çıkan Gerçek Projeler"
+      },
+      "allProjectsLink": {
+        "az": "Bütün layihələri gör",
+        "en": "View all projects",
+        "tr": "Tüm projeleri gör"
+      },
+      "experienceEyebrow": {
+        "az": "02 / Karyera",
+        "en": "02 / Career",
+        "tr": "02 / Kariyer"
+      },
+      "experienceTitle": {
+        "az": "İş Təcrübəsi",
+        "en": "Work Experience",
+        "tr": "İş Deneyimi"
+      },
+      "allExperienceLink": {
+        "az": "Bütün təcrübəni gör",
+        "en": "View all experience",
+        "tr": "Tüm deneyimi gör"
+      },
+      "skillsEyebrow": {
+        "az": "03 / Bacarıqlar",
+        "en": "03 / Skills",
+        "tr": "03 / Yetkinlikler"
+      },
+      "skillsTitle": {
+        "az": "Texniki Bacarıqlar",
+        "en": "Technical Skills",
+        "tr": "Teknik Beceriler"
+      },
+      "academicEyebrow": {
+        "az": "04 / Təhsil və Dillər",
+        "en": "04 / Education & Languages",
+        "tr": "04 / Akademik & Diller"
+      },
+      "academicTitle": {
+        "az": "Təhsil və Xarici Dillər",
+        "en": "Education & Languages",
+        "tr": "Eğitim ve Yabancı Diller"
+      },
+      "aboutLink": {
+        "az": "Haqqımda səhifəsinə get",
+        "en": "Go to about page",
+        "tr": "Hakkımda sayfasına git"
+      },
+      "responsibilitiesLabel": {
+        "az": "Öhdəliklər və Görülən İşlər",
+        "en": "Key Responsibilities & Deliverables",
+        "tr": "Sorumluluklar ve Yapılan Çalışmalar"
+      }
+    },
+    "projects": {
+      "eyebrow": {
+        "az": "GitHub Portfolyosu / 2023 — 2026",
+        "en": "GitHub Portfolio / 2023 — 2026",
+        "tr": "GitHub Portfolyosu / 2023 — 2026"
+      },
+      "title": {
+        "az": "Hazırladığım Layihələr",
+        "en": "Featured Projects",
+        "tr": "Geliştirdiğim Projeler"
+      },
+      "lead": {
+        "az": "Backend arxitekturası, RESTful API servisləri, Filament admin panelləri və istehsalat mühitində çalışan real GitHub layihələrim.",
+        "en": "Scalable backend architecture, RESTful API services, Filament admin panels, and real production GitHub projects.",
+        "tr": "Backend mimarisi, RESTful API servisleri, Filament admin panelleri ve üretim ortamlarında çalışan gerçek GitHub projelerim."
+      },
+      "detailBtn": {
+        "az": "Detalları İncələ",
+        "en": "View Details",
+        "tr": "Detayları İncele"
+      },
+      "repoBtn": {
+        "az": "Repo",
+        "en": "Repo",
+        "tr": "Repo"
+      },
+      "githubView": {
+        "az": "GitHub-da İncələ",
+        "en": "Inspect on GitHub",
+        "tr": "GitHub'da İncele"
+      },
+      "challengeLabel": {
+        "az": "Ehtiyac və Problem (Challenge)",
+        "en": "Need & Challenge",
+        "tr": "İhtiyaç ve Problem (Challenge)"
+      },
+      "contributionsLabel": {
+        "az": "Öhdəmə Götürdüyüm İşlər və Təslimatlar",
+        "en": "Contributions & Deliverables",
+        "tr": "Üstlendiğim Çalışmalar ve Teslimler"
+      },
+      "stackLabel": {
+        "az": "İstifadə Edilən Texnologiyalar",
+        "en": "Technology Stack",
+        "tr": "Kullanılan Stack"
+      },
+      "categories": {
+        "all": {
+          "az": "Hamısı",
+          "en": "All Projects",
+          "tr": "Tümü"
+        },
+        "backend": {
+          "az": "Laravel & PHP",
+          "en": "Laravel & PHP",
+          "tr": "Laravel & PHP"
+        },
+        "dotnet": {
+          "az": ".NET & C#",
+          "en": ".NET & C#",
+          "tr": ".NET & C#"
+        },
+        "go": {
+          "az": "Go & Mikroservis",
+          "en": "Go & Microservices",
+          "tr": "Go & Mikroservis"
+        },
+        "ecommerce": {
+          "az": "E-Ticarət",
+          "en": "E-Commerce",
+          "tr": "E-Ticaret"
+        },
+        "enterprise": {
+          "az": "Korporativ & ERP",
+          "en": "Enterprise & ERP",
+          "tr": "Kurumsal & ERP"
+        },
+        "tools": {
+          "az": "Alətlər & Botlar",
+          "en": "Tools & Bots",
+          "tr": "Araçlar & Botlar"
+        }
+      },
+      "visitSite": {
+        "az": "Sayta bax",
+        "en": "Visit site",
+        "tr": "Siteyi gör"
+      }
+    },
+    "experience": {
+      "eyebrow": {
+        "az": "İş Təcrübəsi",
+        "en": "Work Experience",
+        "tr": "İş Deneyimi"
+      },
+      "title": {
+        "az": "Karyera Tarixçəsi",
+        "en": "Career History",
+        "tr": "Kariyer Geçmişi"
+      },
+      "lead": {
+        "az": "4 ildən artıq müddətdə e-ticarət, təhsil və korporativ sistemlərdə icra etdiyim bütün backend və full-stack vəzifələri.",
+        "en": "Over 4 years of hands-on experience building backend and full-stack systems across e-commerce, education, and enterprise software.",
+        "tr": "4 yılı aşkın sürede e-ticaret, eğitim ve kurumsal yazılımlarda üstlendiğim tüm görev ve sorumluluklar."
+      }
+    },
+    "about": {
+      "eyebrow": {
+        "az": "Profil",
+        "en": "Profile",
+        "tr": "Profil"
+      },
+      "title": {
+        "az": "Haqqımda",
+        "en": "About Me",
+        "tr": "Hakkımda"
+      },
+      "lead": {
+        "az": "PHP (Laravel, CodeIgniter 3), .NET Core və Go texnologiyaları üzrə ixtisaslaşmış Backend Developer.",
+        "en": "Backend Developer specializing in PHP (Laravel, CodeIgniter 3), .NET Core, and Go.",
+        "tr": "PHP (Laravel, CodeIgniter 3), .NET Core ve Go alanlarında uzmanlaşmış Backend Developer."
+      },
+      "summaryHeading": {
+        "az": "Profil Xülasəsi",
+        "en": "Profile Summary",
+        "tr": "Profil Özeti"
+      },
+      "skillsHeading": {
+        "az": "Texniki Bacarıqlar",
+        "en": "Technical Skills",
+        "tr": "Teknik Beceriler"
+      },
+      "educationHeading": {
+        "az": "Təhsil",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "languagesHeading": {
+        "az": "Xarici Dillər",
+        "en": "Languages",
+        "tr": "Yabancı Diller"
+      },
+      "locationLabel": {
+        "az": "Məkan:",
+        "en": "Location:",
+        "tr": "Konum:"
+      }
+    },
+    "contact": {
+      "eyebrow": {
+        "az": "Əlaqə",
+        "en": "Get In Touch",
+        "tr": "İletişim"
+      },
+      "title": {
+        "az": "Mənimlə Əlaqə",
+        "en": "Contact Me",
+        "tr": "Bana Ulaşın"
+      },
+      "lead": {
+        "az": "Yeni bir məhsul hazırlamaq, komandanıza qoşulmaq və ya layihə əməkdaşlığı üçün birbaşa əlaqə saxlaya bilərsiniz.",
+        "en": "Feel free to reach out for full-time opportunities, consulting, or project collaborations.",
+        "tr": "Yeni bir ürün geliştirmek, ekibinize dahil olmak veya teknik iş birlikleri için doğrudan iletişim kurabilirsiniz."
+      },
+      "emailLabel": {
+        "az": "E-poçt",
+        "en": "Email",
+        "tr": "E-posta"
+      },
+      "emailSub": {
+        "az": "Birbaşa e-poçt göndərin",
+        "en": "Send a direct email",
+        "tr": "Doğrudan e-posta gönderin"
+      },
+      "phoneLabel": {
+        "az": "Telefon & WhatsApp",
+        "en": "Phone & WhatsApp",
+        "tr": "Telefon & WhatsApp"
+      },
+      "phoneSub": {
+        "az": "Zəng və ya mesaj ilə əlaqə qurun",
+        "en": "Call or message instantly",
+        "tr": "Arama veya mesaj ile hemen ulaşın"
+      },
+      "githubSub": {
+        "az": "Açıq mənbə kodlarımı araşdırın",
+        "en": "Explore open source repositories",
+        "tr": "Açık kaynak projelerimi ve kodlarımı inceleyin"
+      },
+      "linkedinSub": {
+        "az": "Peşəkar əlaqə quraq",
+        "en": "Connect professionally",
+        "tr": "Profesyonel bağlantı kuralım"
+      },
+      "cvSub": {
+        "az": "Orijinal iki səhifəlik CV-ni yükləyin",
+        "en": "Download original 2-page CV",
+        "tr": "Orijinal iki sayfalık CV'yi indirin"
+      },
+      "locationSub": {
+        "az": "Şimali Kipr · GMT+3",
+        "en": "Northern Cyprus · GMT+3",
+        "tr": "Kuzey Kıbrıs · GMT+3"
+      },
+      "statusHeading": {
+        "az": "İş Rejimi & Mövcudluq",
+        "en": "Work Arrangement & Availability",
+        "tr": "Çalışma Şekli & Durum"
+      },
+      "statusDesc": {
+        "az": "Tam Ştat (Full-time), Hibrid və ya Distant (Remote) vakansiyalar üçün uyğundur.",
+        "en": "Available for Full-time, Hybrid, or Remote engineering roles worldwide.",
+        "tr": "Tam Zamanlı (Full-time), Hibrit veya Uzaktan (Remote) pozisyonlar için uygundur."
+      },
+      "startEmailBtn": {
+        "az": "E-poçt Göndər ↗",
+        "en": "Send Email ↗",
+        "tr": "E-posta Başlat ↗"
+      },
+      "emailSubject": {
+        "az": "İş Təklifi — Albert Haciverdiyev",
+        "en": "Job Inquiry — Albert Hajiverdiyev",
+        "tr": "İş Görüşmesi — Albert Hajiverdiyev"
+      }
+    },
+    "cta": {
+      "eyebrow": {
+        "az": "Əlaqə",
+        "en": "Contact",
+        "tr": "İletişim"
+      },
+      "title": {
+        "az": "Bir layihə və ya yeni bir iş imkanı var?",
+        "en": "Have a project or job opportunity?",
+        "tr": "Bir proje veya yeni bir iş fırsatı mı var?"
+      },
+      "desc": {
+        "az": "Komandanız üçün güclü bir Backend Developer axtarırsınızsa və ya fikrinizi işlək, etibarlı məhsula çevirmək istəyirsinizsə tanış olaq.",
+        "en": "If you are looking for a reliable Backend Developer or want to turn your technical vision into a scalable product, let's talk.",
+        "tr": "Ekibiniz için güçlü bir Backend Developer arıyorsanız veya fikrinizi çalışan, güvenilir bir ürüne dönüştürmek istiyorsanız tanışalım."
+      },
+      "contactBtn": {
+        "az": "Əlaqə Qur ↗",
+        "en": "Get In Touch ↗",
+        "tr": "İletişime Geç ↗"
+      },
+      "emailBtn": {
+        "az": "E-poçt Göndər ↗",
+        "en": "Send Email ↗",
+        "tr": "E-posta Gönder ↗"
+      },
+      "callBtn": {
+        "az": "İndi Zəng Et ↗",
+        "en": "Call Now ↗",
+        "tr": "Hemen Ara ↗"
+      }
+    },
+    "footer": {
+      "role": {
+        "az": "Backend & Full Stack Developer",
+        "en": "Backend & Full Stack Developer",
+        "tr": "Backend & Full Stack Developer"
+      },
+      "email": {
+        "az": "E-poçt",
+        "en": "Email",
+        "tr": "E-posta"
+      },
+      "phone": {
+        "az": "Telefon",
+        "en": "Phone",
+        "tr": "Telefon"
+      }
+    },
+    "meta": {
+      "home": {
+        "title": {
+          "az": "Albert Haciverdiyev — Backend & Full Stack Developer",
+          "en": "Albert Hajiverdiyev — Backend & Full Stack Developer",
+          "tr": "Albert Hajiverdiyev — Backend & Full Stack Developer"
+        }
+      },
+      "projects": {
+        "title": {
+          "az": "Layihələr — Albert Haciverdiyev",
+          "en": "Projects — Albert Hajiverdiyev",
+          "tr": "Projeler — Albert Hajiverdiyev"
+        }
+      },
+      "experience": {
+        "title": {
+          "az": "İş Təcrübəsi — Albert Haciverdiyev",
+          "en": "Work Experience — Albert Hajiverdiyev",
+          "tr": "Kariyer Geçmişi — Albert Hajiverdiyev"
+        }
+      },
+      "about": {
+        "title": {
+          "az": "Haqqımda — Albert Haciverdiyev",
+          "en": "About Me — Albert Hajiverdiyev",
+          "tr": "Hakkımda — Albert Hajiverdiyev"
+        }
+      },
+      "contact": {
+        "title": {
+          "az": "Əlaqə — Albert Haciverdiyev",
+          "en": "Contact — Albert Hajiverdiyev",
+          "tr": "İletişim — Albert Hajiverdiyev"
+        }
+      }
+    },
+    "modal": {
+      "close": {
+        "az": "Bağla",
+        "en": "Close",
+        "tr": "Kapat"
+      },
+      "defaultCategory": {
+        "az": "Layihə",
+        "en": "Project",
+        "tr": "Proje"
+      }
+    }
+  },
+  "profile": {
+    "name": "Albert Hajiverdiyev",
+    "role": {
+      "az": "Backend Developer",
+      "en": "Backend Developer",
+      "tr": "Backend Developer"
+    },
+    "title": {
+      "az": "Backend & Full Stack Developer",
+      "en": "Backend & Full Stack Developer",
+      "tr": "Backend & Full Stack Developer"
+    },
+    "status": {
+      "az": "Aktiv iş təkliflərinə açıq · Girnə, Şimali Kipr",
+      "en": "Open to work & opportunities · Kyrenia, Northern Cyprus",
+      "tr": "Aktif iş fırsatlarına açık · Girne, Kuzey Kıbrıs"
+    },
+    "location": {
+      "az": "Girnə, Şimali Kipr",
+      "en": "Kyrenia, Northern Cyprus",
+      "tr": "Girne, Kuzey Kıbrıs"
+    },
+    "phone": "+90 546 992 15 12",
+    "phoneRaw": "+905469921512",
+    "email": "alberthaciverdiyev25@gmail.com",
+    "github": "alberthaciverdiyev1",
+    "githubUrl": "https://github.com/alberthaciverdiyev1",
+    "linkedin": "Albert Hajiverdiyev",
+    "linkedinUrl": "https://www.linkedin.com/in/albert-hajiverdiyev/",
+    "avatar": "/images/avatar.png",
+    "cvPdf": "/Albert-Hajiverdiyev-CV.pdf",
+    "summary": {
+      "az": "PHP (Laravel, CodeIgniter 3), .NET Core və Go texnologiyaları üzrə ixtisaslaşmış, 4 ildən artıq təcrübəyə malik Backend Developer. E-ticarət platformaları və təhsil sistemləri üçün RESTful API-lərin hazırlanması, MySQL və PostgreSQL ilə mürəkkəb verilənlər bazası strukturlarının idarə olunması təcrübəsinə malikdir. Sistem sabitliyi və yüksək performans üçün uçdan-uca server konfiqurasiyası və Linux deployment proseslərini icra edir. NS Studio, The Projects of Azerbaijan, Ishesabi MMC və Flup MMC daxilində müxtəlif sektorlar üçün möhkəm backend infrastrukturları qurmuşdur.",
+      "en": "Backend Developer with over 4 years of experience specializing in PHP (Laravel, CodeIgniter 3), .NET Core, and Go. Experienced in developing RESTful APIs for e-commerce platforms, educational systems, and ERP solutions, while managing complex database schemas with MySQL and PostgreSQL. Handles full-cycle deployment and Linux server configuration to maintain system stability and performance. Built backend infrastructures across various sectors at NS Studio, Ishesabi MMC, and Flup MMC.",
+      "tr": "PHP (Laravel, CodeIgniter 3), .NET Core ve Go alanlarında uzmanlaşmış, 4 yılı aşkın deneyime sahip Backend Developer. E-ticaret platformları, eğitim sistemleri ve ERP çözümleri için RESTful API geliştirme, MySQL ve PostgreSQL ile karmaşık veritabanı şemalarını yönetme tecrübesine sahip. Sistem kararlılığı ve performansı için uçtan uca dağıtım (deployment) ve Linux sunucu yapılandırması yönetir. NS Studio, The Projects of Azerbaijan, Ishesabi MMC ve Flup MMC bünyesinde farklı sektörler için sağlam backend altyapıları inşa etmiştir."
+    }
+  },
+  "metrics": [
+    {
+      "num": "4+ Yıl / Years",
+      "title": {
+        "az": "Peşəkar Təcrübə",
+        "en": "Professional Experience",
+        "tr": "Profesyonel Deneyim"
+      },
+      "desc": {
+        "az": "NS Studio, Ishesabi MMC, Flup MMC",
+        "en": "NS Studio, Ishesabi MMC, Flup MMC",
+        "tr": "NS Studio, Ishesabi MMC, Flup MMC"
+      }
+    },
+    {
+      "num": "PHP · .NET · Go",
+      "title": {
+        "az": "Əsas Stack",
+        "en": "Core Stack",
+        "tr": "Uzmanlık Alanı"
+      },
+      "desc": {
+        "az": "Laravel, CodeIgniter 3, C#, RESTful API",
+        "en": "Laravel, CodeIgniter 3, C#, RESTful API",
+        "tr": "Laravel, CodeIgniter 3, C#, RESTful API"
+      }
+    },
+    {
+      "num": "SQL / NoSQL",
+      "title": {
+        "az": "Verilənlər Bazası",
+        "en": "Database Architecture",
+        "tr": "Veritabanı Yönetimi"
+      },
+      "desc": {
+        "az": "MySQL, PostgreSQL, MongoDB, MS SQL",
+        "en": "MySQL, PostgreSQL, MongoDB, MS SQL",
+        "tr": "MySQL, PostgreSQL, MongoDB, MS SQL"
+      }
+    },
+    {
+      "num": "Linux / VPS",
+      "title": {
+        "az": "İstehsalat Dağıtımı",
+        "en": "Full-Cycle Deployment",
+        "tr": "Full-Cycle Dağıtım"
+      },
+      "desc": {
+        "az": "Server idarəetməsi və sabitlik",
+        "en": "Server administration & stability",
+        "tr": "Sunucu yapılandırması & kararlılık"
+      }
+    }
+  ],
+  "focusAreas": [
+    {
+      "icon": "⚡",
+      "title": {
+        "az": "Backend Arxitekturası",
+        "en": "Backend Architecture",
+        "tr": "Backend Mimari"
+      },
+      "desc": {
+        "az": "PHP (Laravel, CodeIgniter 3), .NET Core MVC və Go ilə yüksək performanslı, miqyaslana bilən RESTful API sistemləri.",
+        "en": "High-performance, scalable RESTful API systems using PHP (Laravel, CodeIgniter 3), .NET Core MVC, and Go.",
+        "tr": "PHP (Laravel, CodeIgniter 3), .NET Core MVC ve Go ile yüksek performanslı, ölçeklenebilir RESTful API mimarileri."
+      }
+    },
+    {
+      "icon": "🗄️",
+      "title": {
+        "az": "Verilənlər Bazası İdarəsi",
+        "en": "Databases & Architecture",
+        "tr": "Veritabanı Yönetimi"
+      },
+      "desc": {
+        "az": "MySQL, PostgreSQL, MS SQL və MongoDB üzərində mürəkkəb relyasiyalı sxem dizaynı və sorğu optimizasiyası.",
+        "en": "Relational schema design, querying, and performance query optimization on MySQL, PostgreSQL, MS SQL, and MongoDB.",
+        "tr": "PostgreSQL, MySQL, MS SQL ve MongoDB üzerinde ilişkisel modelleme, şema tasarımı ve sorgu optimizasyonu."
+      }
+    },
+    {
+      "icon": "🧩",
+      "title": {
+        "az": "İdarəetmə Panelləri və Ödənişlər",
+        "en": "Admin Panels & Gateways",
+        "tr": "Yönetim Panelleri & Ödeme"
+      },
+      "desc": {
+        "az": "Filament ilə xüsusi admin panelləri, WiseCP modulları və 3-cü tərəf ödəniş sistemləri (Odero, United Payment) inteqrasiyası.",
+        "en": "Custom administrative tools with Filament, WiseCP modules, and 3rd party payment gateways (Odero, United Payment).",
+        "tr": "Filament ile gelişmiş yönetim araçları, WiseCP modülleri ve 3. taraf ödeme sistemleri (Odero, United Payment) entegrasyonu."
+      }
+    },
+    {
+      "icon": "🚀",
+      "title": {
+        "az": "Full-Cycle Dağıtım və Server",
+        "en": "Full-Cycle Deployment",
+        "tr": "Production & Dağıtım"
+      },
+      "desc": {
+        "az": "Linux server inzibatçılığı, Nginx konfiqurasiyası, Docker, Git versiya idarəsi və canlı mühit sabitliyi.",
+        "en": "Linux server administration, Nginx web server tuning, Docker, Git versioning, and continuous production uptime.",
+        "tr": "Linux sunucu yönetimi, Nginx konfigürasyonu, Docker, Git sürüm takibi ve kesintisiz canlıya alma süreçleri."
+      }
+    }
+  ],
+  "skills": [
+    "PHP",
+    "Laravel",
+    "CodeIgniter 3",
+    ".NET Core MVC",
+    "C#",
+    "Go",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "Fastify.js",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "MS SQL",
+    "Redis",
+    "RESTful API",
+    "Linux",
+    "Nginx",
+    "Docker",
+    "Git",
+    "GitHub",
+    "Filament",
+    "WiseCP",
+    "cPanel",
+    "Odero",
+    "United Payment",
+    "Tailwind CSS",
+    "Bootstrap",
+    "AJAX",
+    "jQuery",
+    "EJS",
+    "HBS",
+    "Edge"
+  ],
+  "skillCategories": [
+    {
+      "name": {
+        "az": "Backend və Əsas Dillər",
+        "en": "Backend & Core Languages",
+        "tr": "Backend & Çekirdek Diller"
+      },
+      "skills": [
+        "PHP",
+        "Laravel",
+        "CodeIgniter 3",
+        ".NET Core MVC",
+        "C#",
+        "Node.js",
+        "Express.js",
+        "Fastify.js",
+        "Adonis.js",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": {
+        "az": "Verilənlər Bazası və Arxitektura",
+        "en": "Databases & Architecture",
+        "tr": "Veritabanları & Veri Mimarisi"
+      },
+      "skills": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "name": {
+        "az": "İdarəetmə Panelləri və Sistemlər",
+        "en": "Admin Panels & Systems",
+        "tr": "Yönetim Panelleri & Sistemler"
+      },
+      "skills": [
+        "Filament Admin",
+        "WiseCP (Billing & Modules)",
+        "cPanel / WHM",
+        "ERP Systems",
+        "Role-Based Access (RBAC)"
+      ]
+    },
+    {
+      "name": {
+        "az": "DevOps, Alətlər və Ödənişlər",
+        "en": "DevOps, Tools & Payments",
+        "tr": "DevOps, Araçlar & Entegrasyonlar"
+      },
+      "skills": [
+        "RESTful API Architecture",
+        "Linux Server Admin",
+        "Nginx",
+        "Docker",
+        "Git / GitHub",
+        "Odero",
+        "United Payment",
+        "FCM Push Notifications",
+        "Epoint"
+      ]
+    },
+    {
+      "name": {
+        "az": "İstifadəçi İnterfeysi (Frontend)",
+        "en": "Frontend & UI Essentials",
+        "tr": "Arayüz & Ön Yüz (Frontend)"
+      },
+      "skills": [
+        "Tailwind CSS",
+        "Bootstrap",
+        "AJAX",
+        "jQuery",
+        "Blade Templates",
+        "EJS",
+        "HBS",
+        "Edge",
+        "templ"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1790235461983",
+      "company": "Garanty Service",
+      "role": {
+        "az": "Repairman",
+        "en": "Repairman",
+        "tr": "Repairman"
+      },
+      "period": "2022-2023",
+      "location": "Bakı, Azərbaycan",
+      "description": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "achievements": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "technologies": []
+    },
+    {
+      "company": "NS Studio",
+      "role": "Backend Developer",
+      "period": {
+        "az": "İyul 2025 – Sentyabr 2026",
+        "en": "July 2025 – September 2026",
+        "tr": "Temmuz 2025 – Eylül 2026"
+      },
+      "periodShort": "07.2025 — 09.2026",
+      "summary": {
+        "az": "E-ticarət və təhsil sistemləri üçün miqyaslana bilən RESTful API-lər, korporativ platformalar, Linux istehsalat mühitləri və Filament idarəetmə alətləri.",
+        "en": "Architected scalable RESTful APIs, delivered high-performance corporate web platforms, managed full Linux production deployments, and developed administrative tools using Laravel and Filament.",
+        "tr": "E-ticaret ve eğitim platformları için ölçeklenebilir RESTful API’ler geliştirdi, uçtan uca Linux dağıtım süreçlerini yönetti ve Laravel & Filament ile operasyonel yönetim araçları inşa etti."
+      },
+      "stack": [
+        "Laravel",
+        "Filament",
+        "RESTful API",
+        "Linux",
+        "MySQL",
+        "PHP",
+        "Docker"
+      ],
+      "details": {
+        "az": [
+          "E-ticarət platformaları və təhsil idarəetmə sistemləri daxil olmaqla müxtəlif sektorlar üçün miqyaslanan RESTful API arxitekturası qurdu.",
+          "Backend məntiqindən yekun yayıma qədər tam texniki dövrü idarə edərək çox sayda yüksək performanslı korporativ veb saytı təhvil verdi.",
+          "Linux server idarəçiliyinə və istehsalat mühitinin dayanıqlığına nəzarət edərək uçdan-uca deployment dövrlərini idarə etdi.",
+          "Laravel və Filament istifadə edərək şirkətdaxili iş axınlarını asanlaşdıran güclü idarəetmə interfeysləri hazırladı."
+        ],
+        "en": [
+          "Architected and developed scalable RESTful APIs for diverse sectors, including e-commerce platforms and educational management systems.",
+          "Delivered numerous high-performance promotional and corporate websites, managing the full technical lifecycle from backend logic to final deployment.",
+          "Managed end-to-end deployment cycles and server configurations, overseeing Linux server administration and production environment stability.",
+          "Developed robust administrative interfaces and management tools using Laravel and Filament, streamlining internal workflows."
+        ],
+        "tr": [
+          "E-ticaret platformları ve eğitim yönetim sistemleri dahil olmak üzere çeşitli sektörler için ölçeklenebilir RESTful API’ler mimarisi kurdu ve geliştirdi.",
+          "Backend iş mantığından nihai dağıtıma kadar tüm teknik yaşam döngüsünü yöneterek yüksek performanslı çok sayıda kurumsal web sitesi teslim etti.",
+          "Linux sunucu yönetimini ve üretim ortamının kararlılığını gözeterek uçtan uca dağıtım (deployment) döngülerini ve sunucu yapılandırmalarını yönetti.",
+          "Laravel ve Filament kullanarak şirket içi iş akışlarını kolaylaştıran güçlü yönetim arayüzleri ve araçlar geliştirdi."
+        ]
+      }
+    },
+    {
+      "company": "The Projects of Azerbaijan",
+      "role": "Backend Developer",
+      "period": {
+        "az": "Dekabr 2024 – İyul 2025",
+        "en": "December 2024 – July 2025",
+        "tr": "Aralık 2024 – Temmuz 2025"
+      },
+      "periodShort": "12.2024 — 07.2025",
+      "summary": {
+        "az": "PHP və Laravel ilə veb tətbiqləri, Filament admin panelləri, WiseCP modulları və üçüncü tərəf ödəniş sistemlərinin inteqrasiyası.",
+        "en": "Developed and maintained web applications with PHP and Laravel, built admin panels using Filament, developed for WiseCP, and integrated third-party payment gateways.",
+        "tr": "PHP ve Laravel ile web uygulamaları geliştirdi, Filament admin panelleri inşa etti, WiseCP geliştirmeleri yaptı ve üçüncü taraf ödeme ağ geçitlerini entegre etti."
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "Filament",
+        "WiseCP",
+        "Odero",
+        "United Payment",
+        "cPanel"
+      ],
+      "details": {
+        "az": [
+          "PHP və Laravel istifadə edərək veb tətbiqləri hazırladı və texniki dəstəyini təmin etdi.",
+          "Filament istifadə edərək veb tətbiqlər üçün funksional admin panelləri qurdu.",
+          "PHP ilə WiseCP platforması üçün fərdi modullar və təkmilləşdirmələr həyata keçirdi.",
+          "Üçüncü tərəf ödəniş sistemlərini (Odero, United Payment) sistemə inteqrasiya etdi."
+        ],
+        "en": [
+          "Developed and maintained web applications using PHP and Laravel.",
+          "Developed and maintained web applications admin panels using Filament.",
+          "Developed and maintained for WiseCP using PHP.",
+          "Integrated 3rd party payment gateways (Odero, United Payment)."
+        ],
+        "tr": [
+          "PHP ve Laravel kullanarak web uygulamaları geliştirdi ve bakımını üstlendi.",
+          "Filament kullanarak web uygulamaları için gelişmiş yönetim (admin) panelleri geliştirdi.",
+          "PHP kullanarak WiseCP platformu için özel modüller ve geliştirmeler yaptı.",
+          "Üçüncü taraf ödeme ağ geçitlerini (Odero, United Payment) sisteme entegre etti."
+        ]
+      }
+    },
+    {
+      "company": "Ishesabi MMC",
+      "role": "Full Stack Developer",
+      "period": {
+        "az": "Noyabr 2023 – Dekabr 2024",
+        "en": "November 2023 – December 2024",
+        "tr": "Kasım 2023 – Aralık 2024"
+      },
+      "periodShort": "11.2023 — 12.2024",
+      "summary": {
+        "az": "CodeIgniter 3 ilə tətbiqlərin idarəsi, SQL verilənlər bazası optimizasiyası, AJAX dinamik interfeysləri və RESTful API inteqrasiyası.",
+        "en": "Maintained and developed CodeIgniter 3 applications, managed SQL databases, implemented interactive AJAX features, and integrated RESTful APIs.",
+        "tr": "PHP ve CodeIgniter 3 ile web sistemleri geliştirdi, SQL veritabanı operasyonlarını yönetti, AJAX ile dinamik ön yüz deneyimi sundu ve RESTful API’ler tasarladı."
+      },
+      "stack": [
+        "CodeIgniter 3",
+        "PHP",
+        "SQL",
+        "AJAX",
+        "RESTful API",
+        "JavaScript",
+        "jQuery"
+      ],
+      "details": {
+        "az": [
+          "PHP və CodeIgniter 3 ilə veb tətbiqləri inkişaf etdirdi və mövcud modulların davamlılığını təmin etdi.",
+          "SQL verilənlər bazalarını idarə etdi və mürəkkəb verilənlər bazası əməliyyatlarını icra etdi.",
+          "AJAX texnologiyası ilə interaktiv istifadəçi təcrübəsi təqdim etdi.",
+          "RESTful API-lər layihələndirdi və mövcud sistemlərə inteqrasiya etdi.",
+          "Yeni funksionallıqların hazırlanması və optimizasiyası üçün komanda ilə sıx çalışdı.",
+          "Xətaların aradan qaldırılması (debugging) və texniki dəstək proseslərini icra etdi."
+        ],
+        "en": [
+          "Developed and maintained web applications using PHP and CodeIgniter 3.",
+          "Managed SQL databases and performed various database operations.",
+          "Enhanced user experience with interactive features using AJAX technology.",
+          "Developed and integrated RESTful APIs.",
+          "Collaborated with the development team to design and optimize new features.",
+          "Participated in debugging processes and resolved technical issues."
+        ],
+        "tr": [
+          "PHP ve CodeIgniter 3 kullanarak web uygulamaları geliştirdi ve mevcut modüllerin bakımını sağladı.",
+          "SQL veritabanlarını yönetti ve çeşitli karmaşık veritabanı işlemlerini gerçekleştirdi.",
+          "AJAX teknolojisini kullanarak etkileşimli özelliklerle kullanıcı deneyimini zenginleştirdi.",
+          "RESTful API’ler geliştirdi ve mevcut sistemlere entegre etti.",
+          "Yeni özellikler tasarlamak ve optimize etmek için geliştirme ekibiyle iş birliği yaptı.",
+          "Hata ayıklama (debugging) süreçlerine katıldı ve teknik sorunları çözüme kavuşturdu."
+        ]
+      }
+    },
+    {
+      "company": "Flup MMC",
+      "role": "Backend Developer",
+      "period": {
+        "az": "İyul 2023 – Noyabr 2023",
+        "en": "July 2023 – November 2023",
+        "tr": "Temmuz 2023 – Kasım 2023"
+      },
+      "periodShort": "07.2023 — 11.2023",
+      "summary": {
+        "az": "Backend biznes məntiqi, verilənlər bazası inteqrasiyası, RESTful API servisinin qurulması və Git versiya nəzarəti.",
+        "en": "Engineered backend logic and database interactions, built RESTful APIs, resolved technical issues, and managed Git/GitHub version control.",
+        "tr": "PHP ve CodeIgniter 3 ile arka yüz iş mantığı ve veritabanı etkileşimlerini geliştirdi, RESTful API servisleri yazdı ve Git sürüm kontrolünü yönetti."
+      },
+      "stack": [
+        "PHP",
+        "CodeIgniter 3",
+        "MySQL",
+        "RESTful API",
+        "Git",
+        "GitHub"
+      ],
+      "details": {
+        "az": [
+          "PHP və CodeIgniter 3 ilə tətbiqlərin backend hissəsini hazırladı.",
+          "Biznes məntiqi və verilənlər bazası əlaqələrini həyata keçirdi.",
+          "Yeni məhsul funksionallıqları üzərində komanda ilə birgə çalışdı.",
+          "RESTful API servisləri yazdı və sınaqdan keçirdi.",
+          "Texniki problemlərin həllində və debugging prosesində iştirak etdi.",
+          "Git və GitHub versiya idarəetmə vasitələrindən aktiv istifadə etdi."
+        ],
+        "en": [
+          "Developed and maintained web applications using PHP and CodeIgniter 3.",
+          "Implemented backend logic and database interactions.",
+          "Collaborated with the development team on new features.",
+          "Developed RESTful APIs.",
+          "Assisted in debugging and resolving technical issues.",
+          "Utilized Git and GitHub for version control."
+        ],
+        "tr": [
+          "PHP ve CodeIgniter 3 kullanarak web uygulamaları geliştirdi ve bakımını yürüttü.",
+          "Backend iş mantığını ve veritabanı etkileşimlerini hayata geçirdi.",
+          "Yeni ürün özellikleri geliştirmek için yazılım ekibiyle yakın iş birliği kurdu.",
+          "RESTful API servisleri geliştirdi.",
+          "Hata ayıklama süreçlerine destek olarak teknik problemleri giderdi.",
+          "Sürüm kontrolü süreçlerinde Git ve GitHub araçlarını etkin şekilde kullandı."
+        ]
+      }
+    }
+  ],
+  "educations": [
+    {
+      "degree": {
+        "az": "Biznesin İdarə Edilməsi üzrə Doktorantura (Ph.D.)",
+        "en": "PhD in Business Administration",
+        "tr": "İşletme Doktorası (Ph.D.)"
+      },
+      "institution": "Altınbaş Cyprus University",
+      "period": "09/2025 — Present",
+      "status": {
+        "az": "Davam Edir",
+        "en": "In Progress",
+        "tr": "Devam Ediyor"
+      }
+    },
+    {
+      "degree": {
+        "az": "Kibertəhlükəsizlik (Cybersecurity)",
+        "en": "Cybersecurity",
+        "tr": "Siber Güvenlik"
+      },
+      "institution": "Code Academy",
+      "period": "07/2024 — 07/2025",
+      "status": {
+        "az": "Tamamlandı",
+        "en": "Completed",
+        "tr": "Tamamlandı"
+      }
+    },
+    {
+      "degree": {
+        "az": "Kompüter Texnologiyaları",
+        "en": "Computer Technologies",
+        "tr": "Bilgisayar Teknolojileri"
+      },
+      "institution": "Azerbaijan Technical University",
+      "period": "07/2024 — 07/2025",
+      "status": {
+        "az": "Tamamlandı",
+        "en": "Completed",
+        "tr": "Tamamlandı"
+      }
+    },
+    {
+      "degree": {
+        "az": "Proqram Təminatı Hazırlanması (Software Developer)",
+        "en": "Software Developer",
+        "tr": "Yazılım Geliştirici"
+      },
+      "institution": "Code Academy",
+      "period": "02/2023 — 06/2023",
+      "status": {
+        "az": "Tamamlandı",
+        "en": "Completed",
+        "tr": "Tamamlandı"
+      }
+    },
+    {
+      "degree": {
+        "az": "Təkrar Emal və Bərpa Texnologiyaları Mühəndisliyi",
+        "en": "Engineering of Recycling And Recovery Technologies",
+        "tr": "Geri Dönüşüm ve Kurtarma Teknolojileri Mühendisliği"
+      },
+      "institution": "Azerbaijan Technical University",
+      "period": "09/2018 — 05/2023",
+      "status": {
+        "az": "Bakalavr Dərəcəsi",
+        "en": "Bachelor's Degree",
+        "tr": "Lisans Derecesi"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": {
+        "az": "Azərbaycan Dili",
+        "en": "Azerbaijani",
+        "tr": "Azerbaycan Türkçesi"
+      },
+      "level": "C2",
+      "badge": {
+        "az": "Ana Dili",
+        "en": "Native",
+        "tr": "Anadil"
+      }
+    },
+    {
+      "name": {
+        "az": "Türk Dili",
+        "en": "Turkish",
+        "tr": "Türkçe"
+      },
+      "level": "C2",
+      "badge": {
+        "az": "Tam Sərbəst / TÖMER",
+        "en": "Proficient / TÖMER C1-C2",
+        "tr": "Tam Yetkinlik / TÖMER C1-C2"
+      }
+    },
+    {
+      "name": {
+        "az": "İngilis Dili",
+        "en": "English",
+        "tr": "İngilizce"
+      },
+      "level": "B2",
+      "badge": {
+        "az": "Peşəkar Səviyyə",
+        "en": "Professional Working",
+        "tr": "Mesleki Düzey"
+      }
+    },
+    {
+      "name": {
+        "az": "Ləzgi Dili",
+        "en": "Lezgi",
+        "tr": "Lezgi Dili"
+      },
+      "level": "C2",
+      "badge": {
+        "az": "Ana Dili",
+        "en": "Native",
+        "tr": "Anadil"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "kibriskare",
+      "category": "Full Stack",
+      "featured": false,
+      "liveUrl": "https://kibriskare.com",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/Metraj.az",
+      "image": "/images/project-kibriskare.png",
+      "tags": [
+        "Laravel",
+        "Blade",
+        "Alpine.js",
+        "PostgreSql",
+        "Tailwind Css",
+        "Javascript",
+        "Redis",
+        "Filament"
+      ],
+      "title": {
+        "az": "KıbrısKare (kibriskare.com) — Daşınmaz Əmlak və Metraj Portalı",
+        "en": "KıbrısKare (kibriskare.com) — Real Estate & Property Platform",
+        "tr": "KıbrısKare (kibriskare.com) — Emlak ve Metraj Platformu"
+      },
+      "description": {
+        "az": "Daşınmaz əmlak elanları, metraj hesablamaları və ətraflı filtrləmə üçün tam funksional platforma.",
+        "en": "A full-featured platform for real estate listings, area/measurement calculations and advanced property filtering.",
+        "tr": "Gayrimenkul ilanları, metraj hesaplamaları ve gelişmiş filtreleme için tam donanımlı platform."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Full Stack · Daşınmaz Əmlak",
+        "en": "Full Stack · Real Estate",
+        "tr": "Full Stack · Gayrimenkul"
+      },
+      "intro": {
+        "az": "Daşınmaz əmlak elanları, metraj hesablamaları və ətraflı filtrləmə üçün tam funksional platforma.",
+        "en": "A full-featured platform for real estate listings, area/measurement calculations and advanced property filtering.",
+        "tr": "Gayrimenkul ilanları, metraj hesaplamaları ve gelişmiş filtreleme için tam donanımlı platform."
+      }
+    },
+    {
+      "id": "ayna-loyalty",
+      "repoName": "NS-Studio-LLC/Ayna-Loyalliq-Backend",
+      "githubUrl": "https://github.com/alberthaciverdiyev1",
+      "category": "dotnet",
+      "image": "/images/project-corporate.png",
+      "type": {
+        "az": "Enterprise .NET · Loyallıq",
+        "en": "Enterprise .NET · Loyalty",
+        "tr": "Kurumsal .NET · Sadakat"
+      },
+      "title": {
+        "az": "Ayna — Loyallıq və Müştəri Mükafatlandırma Sistemi",
+        "en": "Ayna — Customer Loyalty & Rewards Platform",
+        "tr": "Ayna — Müşteri Sadakat & Ödül Platformu"
+      },
+      "intro": {
+        "az": "C# və .NET Core Web API ilə Clean Architecture əsasında qurulmuş irimiqyaslı müştəri loyallığı, cashback və xal idarəetmə backend platforması.",
+        "en": "Enterprise customer loyalty, cashback calculation, and points management system built on .NET Core Clean Architecture and Web API.",
+        "tr": "C# ve .NET Core Web API ile Clean Architecture ilkelerine göre tasarlanmış kurumsal müşteri sadakati, puan ve cashback yönetim platformu."
+      },
+      "challenge": {
+        "az": "Müxtəlif ticarət nöqtələrindən daxil olan maliyyə və xal əməliyyatlarını anlıq, tranzaksion təhlükəsizliklə hesablamaq və icra etmək.",
+        "en": "Guaranteeing transactional integrity and real-time ledger accounting for point accruals and multi-vendor redemptions.",
+        "tr": "Farklı satış noktalarından gelen işlem ve puan hareketlerini anlık, işlem güvenliği (ACID) ile hatasız hesaplamak ve kaydetmek."
+      },
+      "contributions": {
+        "az": [
+          ".NET Core Clean Architecture (Domain, Application, Infrastructure, API) layihələndirilməsi",
+          "Entity Framework Core və SQL Server ilə mürəkkəb tranzaksiya mexanizmləri",
+          "Müştəri balansı, xal dövriyyəsi və mükafatlandırma qaydaları mühərriki",
+          "Ticarət şəbəkələri üçün yüksək təhlükəsizlikli API inteqrasiyaları"
+        ],
+        "en": [
+          "Implemented .NET Core Clean Architecture across Domain, Application, Infrastructure, and API layers",
+          "Built resilient financial ledger operations using Entity Framework Core and SQL Server",
+          "Engineered rule-based reward and cashback calculation engines for retail network partners",
+          "Delivered secure REST APIs with JWT authentication for point-of-sale integrations"
+        ],
+        "tr": [
+          "Domain, Application, Infrastructure ve API katmanlarından oluşan .NET Core Clean Architecture mimarisi",
+          "Entity Framework Core ve SQL Server ile yüksek güvenilirlikli finansal işlem altyapısı",
+          "Üye işyerleri ve perakende zincirleri için kural tabanlı puan ve cashback motoru",
+          "Kasa ve mobil entegrasyonlar için güvenli REST Web API uçları"
+        ]
+      },
+      "stack": [
+        ".NET Core",
+        "C#",
+        "Clean Architecture",
+        "SQL Server",
+        "EF Core",
+        "REST API"
+      ]
+    },
+    {
+      "id": "savad",
+      "repoName": "NS-Studio-LLC/Savadbackend",
+      "githubUrl": "https://github.com/alberthaciverdiyev1",
+      "category": "enterprise",
+      "image": "/images/project-education.png",
+      "type": {
+        "az": "Təhsil Sistemi · LMS",
+        "en": "Education Platform · LMS",
+        "tr": "Eğitim Platformu · LMS"
+      },
+      "title": {
+        "az": "Savad.az — Onlayn Təhsil və İmtahan Sistemi",
+        "en": "Savad.az — Education & Exam Management Platform",
+        "tr": "Savad.az — Online Eğitim & Sınav Sistemi"
+      },
+      "intro": {
+        "az": "Müəllim, tələbə və inzibatçı kabinetləri, video dərslər, sınaq imtahanları və analitika üçün Laravel arxitekturası.",
+        "en": "Complete LMS backend powering student-teacher portals, video curricula, automated mock examinations, and performance tracking.",
+        "tr": "Öğrenci, eğitmen ve yönetici panelleri, görüntülü dersler, deneme sınavları ve performans takibi için Laravel backend altyapısı."
+      },
+      "challenge": {
+        "az": "Eyni anda minlərlə tələbənin imtahan verdiyi zaman sual cavablarının itməməsi və vaxt taymerinin dəqiq sinxronizasiyası.",
+        "en": "Managing concurrent examination sessions, timer synchronization, and immediate score generation without latency.",
+        "tr": "Eşzamanlı sınav oturumlarında yüksek kullanıcı yükü altında yanıtların kaybolmaması ve anlık puanlama yapılması."
+      },
+      "contributions": {
+        "az": [
+          "Laravel ilə modul əsaslı LMS backend arxitekturası və imtahan sessiyaları mühərriki",
+          "Sual bazası, avtomatik test qiymətləndirmə və sertifikat generasiya servisi",
+          "Docker konteynerizasiyası və Linux istehsalat mühitinin konfiqurasiyası",
+          "Frontend və mobil tətbiqlər üçün güclü RESTful API servisləri"
+        ],
+        "en": [
+          "Engineered modular Laravel LMS backend with synchronized timed examination engine",
+          "Built automated quiz assessment, progress scoring, and digital certificate generation pipelines",
+          "Deployed with Docker containers on Linux VPS ensuring peak examination stability",
+          "Delivered rich RESTful API contracts consumed by web and mobile client applications"
+        ],
+        "tr": [
+          "Modüler Laravel LMS backend yapısı ve senkronize süreli sınav motoru",
+          "Soru havuzu, otomatik test değerlendirme ve dijital sertifika üretim servisi",
+          "Docker konteynerleri ve Linux sunucu altyapısıyla kesintisiz dağıtım",
+          "Web ve mobil uygulamalar için kapsamlı RESTful API servisleri"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Docker",
+        "RESTful API",
+        "Linux"
+      ]
+    },
+    {
+      "id": "teymurstore",
+      "category": "ecommerce",
+      "featured": false,
+      "liveUrl": "https://teymurstore.az/",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/TeymurStore",
+      "image": "/images/project-teymurstore.png",
+      "tags": [
+        "Laravel",
+        "Nwidart",
+        "PostgreSql",
+        "Redis",
+        "Socket.io",
+        "FMC"
+      ],
+      "title": {
+        "az": "TeymurStore (teymurstore.az) — Pərakəndə E-Ticarət və Mobil Tətbiq",
+        "en": "TeymurStore (teymurstore.az) — Retail E-Commerce & Play Store App",
+        "tr": "TeymurStore (teymurstore.az) — Perakende E-Ticaret & Play Store Uygulaması"
+      },
+      "description": {
+        "az": "Pərakəndə satış üçün onlayn mağaza və Android tətbiqi: məhsul kataloqu, səbət, sifariş və stok idarəetməsi.",
+        "en": "Online store and Android app for retail: product catalog, cart, ordering and stock management.",
+        "tr": "Perakende satış için online mağaza ve Android uygulaması: ürün kataloğu, sepet, sipariş ve stok yönetimi."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "E-ticarət · Pərakəndə",
+        "en": "E-commerce · Retail",
+        "tr": "E-ticaret · Perakende"
+      },
+      "intro": {
+        "az": "Pərakəndə satış üçün onlayn mağaza və Android tətbiqi: məhsul kataloqu, səbət, sifariş və stok idarəetməsi.",
+        "en": "Online store and Android app for retail: product catalog, cart, ordering and stock management.",
+        "tr": "Perakende satış için online mağaza ve Android uygulaması: ürün kataloğu, sepet, sipariş ve stok yönetimi."
+      }
+    },
+    {
+      "id": "hostinq-az",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://hostinq.az/en/",
+      "githubUrl": "https://hostinq.az/en/",
+      "repoName": "hostinq.az",
+      "image": "/images/project-hostinq-az.png",
+      "type": {
+        "az": "Korporativ · Hostinq",
+        "en": "Corporate · Web Hosting",
+        "tr": "Kurumsal · Web Hosting"
+      },
+      "title": {
+        "az": "Hostinq.az — Veb Hostinq və Domen Xidmətləri",
+        "en": "Hostinq.az — Web Hosting & Domain Services",
+        "tr": "Hostinq.az — Web Hosting ve Alan Adı Hizmetleri"
+      },
+      "intro": {
+        "az": "Azərbaycanda sürətli və etibarlı veb hostinq, domen və server xidmətləri təqdim edən müasir platforma.",
+        "en": "A modern platform delivering fast and reliable web hosting, domain and server services in Azerbaijan.",
+        "tr": "Azerbaycan’da hızlı ve güvenilir web hosting, alan adı ve sunucu hizmetleri sunan modern platform."
+      },
+      "challenge": {
+        "az": "Paket seçimi, domen axtarışı və sifariş axınını sadə, sürətli və çoxdilli etmək.",
+        "en": "Making plan selection, domain search and the ordering flow simple, fast and multilingual.",
+        "tr": "Paket seçimi, alan adı arama ve sipariş akışını basit, hızlı ve çok dilli hale getirmek."
+      },
+      "contributions": {
+        "az": [
+          "Hostinq paketləri və tarif kataloqu",
+          "Domen axtarışı və qeydiyyat axını",
+          "Sifariş və ödəniş prosesi",
+          "Çoxdilli (AZ/EN/RU) interfeys"
+        ],
+        "en": [
+          "Hosting plans and pricing catalog",
+          "Domain search and registration flow",
+          "Ordering and payment process",
+          "Multilingual (AZ/EN/RU) interface"
+        ],
+        "tr": [
+          "Hosting paketleri ve fiyat kataloğu",
+          "Alan adı arama ve kayıt akışı",
+          "Sipariş ve ödeme süreci",
+          "Çok dilli (AZ/EN/RU) arayüz"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Redis"
+      ],
+      "tags": [
+        "Hosting",
+        "Laravel",
+        "Korporativ"
+      ]
+    },
+    {
+      "id": "jobing-az",
+      "category": "backend",
+      "featured": false,
+      "liveUrl": "https://new.jobing.az",
+      "githubUrl": "https://new.jobing.az",
+      "repoName": "new.jobing.az",
+      "image": "/images/project-jobing-az.png",
+      "type": {
+        "az": "Vakansiya Platforması",
+        "en": "Job Board Platform",
+        "tr": "İş İlanları Platformu"
+      },
+      "title": {
+        "az": "Jobing.az — Vakansiya və İş Elanları Platforması",
+        "en": "Jobing.az — Jobs & Vacancy Platform",
+        "tr": "Jobing.az — İş İlanları ve Vakansiya Platformu"
+      },
+      "intro": {
+        "az": "Azərbaycanda ən son iş elanları, part-time, online və freelance vakansiyaları birləşdirən müasir iş axtarış platforması.",
+        "en": "A modern job-search platform aggregating the latest vacancies, part-time, online and freelance positions in Azerbaijan.",
+        "tr": "Azerbaycan’daki en güncel iş ilanlarını, part-time, online ve freelance pozisyonları bir araya getiren modern iş arama platformu."
+      },
+      "challenge": {
+        "az": "Yüksək trafikli vakansiya elanlarını sürətli axtarış, filtr və kateqoriyalarla təqdim etmək.",
+        "en": "Serving high-traffic vacancy listings with fast search, filters and categories.",
+        "tr": "Yoğun trafikli ilanları hızlı arama, filtre ve kategorilerle sunmak."
+      },
+      "contributions": {
+        "az": [
+          "Vakansiya elan idarəetməsi",
+          "Ətraflı axtarış və filtr mexanizmi",
+          "Şirkət profilləri",
+          "SEO-uyğun səhifələr"
+        ],
+        "en": [
+          "Vacancy listing management",
+          "Advanced search and filter engine",
+          "Company profiles",
+          "SEO-friendly pages"
+        ],
+        "tr": [
+          "İlan yönetimi",
+          "Gelişmiş arama ve filtre motoru",
+          "Şirket profilleri",
+          "SEO uyumlu sayfalar"
+        ]
+      },
+      "stack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Redis",
+        "Alpine.js"
+      ],
+      "tags": [
+        "Laravel",
+        "Redis",
+        "SEO"
+      ]
+    },
+    {
+      "id": "ishesabi",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://ishesabi.com",
+      "githubUrl": "https://ishesabi.com",
+      "repoName": "ishesabi.com",
+      "image": "/images/project-ishesabi.png",
+      "type": {
+        "az": "SaaS · Biznes İdarəetmə",
+        "en": "SaaS · Business Management",
+        "tr": "SaaS · İşletme Yönetimi"
+      },
+      "title": {
+        "az": "İŞHESABI — Rəqəmsal Biznes İdarəetmə Platforması",
+        "en": "İŞHESABI — Digital Business Management Platform",
+        "tr": "İŞHESABI — Dijital İşletme Yönetim Platformu"
+      },
+      "intro": {
+        "az": "Müxtəlif sektorlardaki sahibkarlar üçün biznes proseslərini — mühasibat, anbar, satış və müştəri idarəetməsini bir platformada birləşdirən rəqəmsal həll.",
+        "en": "A digital platform that unifies business processes — accounting, inventory, sales and customer management — for entrepreneurs across many sectors.",
+        "tr": "Farklı sektörlerdeki girişimciler için muhasebe, stok, satış ve müşteri yönetimini tek platformda birleştiren dijital çözüm."
+      },
+      "challenge": {
+        "az": "Fərqli biznes ehtiyaclarını vahid, ölçeklenə bilən və təhlükəsiz SaaS arxitekturasında birləşdirmək.",
+        "en": "Unifying diverse business needs into a single, scalable and secure SaaS architecture.",
+        "tr": "Farklı iş ihtiyaçlarını tek, ölçeklenebilir ve güvenli bir SaaS mimarisinde birleştirmek."
+      },
+      "contributions": {
+        "az": [
+          "Biznes proseslərinin modul əsaslı idarəetmə paneli",
+          "Mühasibat və anbar modulları",
+          "Rol əsaslı istifadəçi sistemi",
+          "REST API inteqrasiyaları"
+        ],
+        "en": [
+          "Modular management panel for business processes",
+          "Accounting and inventory modules",
+          "Role-based user management",
+          "REST API integrations"
+        ],
+        "tr": [
+          "İş süreçleri için modüler yönetim paneli",
+          "Muhasebe ve stok modülleri",
+          "Rol tabanlı kullanıcı yönetimi",
+          "REST API entegrasyonları"
+        ]
+      },
+      "stack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "REST API",
+        "Tailwind CSS"
+      ],
+      "tags": [
+        "Laravel",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "id": "ticarx",
+      "category": "ecommerce",
+      "featured": false,
+      "liveUrl": "https://ticarx.com",
+      "githubUrl": "https://ticarx.com",
+      "repoName": "ticarx.com",
+      "image": "/images/project-ticarx.png",
+      "type": {
+        "az": "SaaS · E-ticarət Platforması",
+        "en": "SaaS · E-commerce Platform",
+        "tr": "SaaS · E-ticaret Platformu"
+      },
+      "title": {
+        "az": "TicarX — Çoxsatıcılı E-ticarət Platforması",
+        "en": "TicarX — Multi-Vendor E-Commerce Platform",
+        "tr": "TicarX — Çok Satıcılı E-Ticaret Platformu"
+      },
+      "intro": {
+        "az": "Onlayn mağaza, mobil tətbiq, ödəniş, kargo və analitikanı tək paneldə birləşdirən çoxsatıcılı SaaS e-ticarət platforması.",
+        "en": "Multi-vendor SaaS e-commerce platform combining online store, mobile app, payments, shipping and analytics in a single panel.",
+        "tr": "Online mağaza, mobil uygulama, ödeme, kargo ve analitiği tek panelde birleştiren çok satıcılı SaaS e-ticaret platformu."
+      },
+      "challenge": {
+        "az": "Çoxsaylı satıcının məhsul, sifariş və ödəniş axınlarını vahid, ölçeklenə bilən platformada idarə etmək.",
+        "en": "Managing many vendors’ product, order and payment flows on a single, scalable platform.",
+        "tr": "Birçok satıcının ürün, sipariş ve ödeme akışını tek ve ölçeklenebilir platformda yönetmek."
+      },
+      "contributions": {
+        "az": [
+          "Çoxsatıcılı mağaza idarəetməsi",
+          "Ödəniş və kargo inteqrasiyaları",
+          "Mobil tətbiq və analitika paneli",
+          "Abunəlik (SaaS) tarifləri"
+        ],
+        "en": [
+          "Multi-vendor store management",
+          "Payment and shipping integrations",
+          "Mobile app and analytics panel",
+          "Subscription (SaaS) pricing"
+        ],
+        "tr": [
+          "Çok satıcılı mağaza yönetimi",
+          "Ödeme ve kargo entegrasyonları",
+          "Mobil uygulama ve analitik paneli",
+          "Abonelik (SaaS) paketleri"
+        ]
+      },
+      "stack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Redis",
+        "REST API"
+      ],
+      "tags": [
+        "SaaS",
+        "E-commerce",
+        "Laravel"
+      ]
+    },
+    {
+      "id": "luxtaxi",
+      "repoName": "alberthaciverdiyev1/LuxTaxiWithBackend",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/LuxTaxiWithBackend",
+      "category": "backend",
+      "image": "/images/project-corporate.png",
+      "type": {
+        "az": "Nəqliyyat & Dispetçer",
+        "en": "Transport & Dispatch Engine",
+        "tr": "Ulaşım & Sevkiyat Sistemi"
+      },
+      "title": {
+        "az": "LuxTaxi — Filo və Sifariş Dispetçer Sistemi",
+        "en": "LuxTaxi — Fleet & Dispatch Taxi Platform",
+        "tr": "LuxTaxi — Filo & Sevkiyat Taksi Platformu"
+      },
+      "intro": {
+        "az": "VIP transfer və taksi xidmətləri üçün sifariş qəbulu, sürücülərə avtomatik təyinat, məsafə və tarif hesablama sistemi.",
+        "en": "Fleet coordination, automated driver dispatching, zone tarif calculations, and passenger web bookings.",
+        "tr": "VIP transfer ve taksi hizmetleri için sipariş kabulü, sürücü ataması, mesafe bazlı ücret ve filo yönetim sistemi."
+      },
+      "challenge": {
+        "az": "Xəritə koordinatları üzərindən marşrut məsafəsini, gözləmə müddətini və pik saat əmsallarını anlıq hesablamaq.",
+        "en": "Calculating real-time route mileage, stopover surcharges, and dynamic peak-hour multipliers via mapping APIs.",
+        "tr": "Harita koordinatları üzerinden rota mesafesini, bekleme sürelerini ve dinamik tarife çarpanlarını anlık hesaplamak."
+      },
+      "contributions": {
+        "az": [
+          "Laravel ilə dispetçer idarə paneli və aktiv sürücü statusları modulu",
+          "Xəritə API-ləri ilə məsafə, marşrut və qiymət generasiya mühərriki",
+          "Filament ilə sürücü balansları, komissiya tutulmaları və gəlir hesabatları",
+          "Müştərilər üçün onlayn sifariş və SMS təsdiq inteqrasiyası"
+        ],
+        "en": [
+          "Architected dispatcher control room for active trip monitoring and manual overrides in Laravel",
+          "Integrated geospatial routing algorithms for distance, travel duration, and tariff estimates",
+          "Delivered Filament driver balance settlement, commission cuts, and financial statements",
+          "Built customer self-booking form with instant SMS ride confirmations"
+        ],
+        "tr": [
+          "Laravel ile canlı seyahat takibi ve dispeçer kontrol odası mimarisi",
+          "Harita ve konum servisleriyle otomatik mesafe, süre ve fiyat hesaplama motoru",
+          "Filament ile sürücü hakedişleri, komisyon kesintileri ve finansal raporlama",
+          "Müşteriler için online rezervasyon ve SMS bilgilendirme entegrasyonu"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "Filament",
+        "RESTful API",
+        "MySQL",
+        "Leaflet"
+      ]
+    },
+    {
+      "id": "kibriskare-car",
+      "category": "backend",
+      "featured": false,
+      "liveUrl": "https://car.kibriskare.com",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/car.kibriskare.com",
+      "image": "/images/screenshot_20260924_115455-1790236511522.png",
+      "tags": [
+        "Laravel",
+        "Filament",
+        "Alpine.js",
+        "Tailwind CSS",
+        "Blade",
+        "PostgreSql",
+        "Redis"
+      ],
+      "title": {
+        "az": "KıbrısKare Car (car.kibriskare.com) — Rent A Car və Filo İdarəsi",
+        "en": "KıbrısKare Car (car.kibriskare.com) — Car Rental & Fleet SaaS",
+        "tr": "KıbrısKare Car (car.kibriskare.com) — Araç Kiralama & Filo Sistemi"
+      },
+      "description": {
+        "az": "Avtomobil icarəsi və avtopark idarəetməsi üçün SaaS platforma: bron, qiymət və filial idarəetməsi.",
+        "en": "SaaS platform for car rental and fleet management: bookings, pricing and branch management.",
+        "tr": "Araç kiralama ve filo yönetimi için SaaS platform: rezervasyon, fiyatlandırma ve şube yönetimi."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "SaaS · Avto İcarə",
+        "en": "SaaS · Car Rental",
+        "tr": "SaaS · Araç Kiralama"
+      },
+      "intro": {
+        "az": "Avtomobil icarəsi və avtopark idarəetməsi üçün SaaS platforma: bron, qiymət və filial idarəetməsi.",
+        "en": "SaaS platform for car rental and fleet management: bookings, pricing and branch management.",
+        "tr": "Araç kiralama ve filo yönetimi için SaaS platform: rezervasyon, fiyatlandırma ve şube yönetimi."
+      }
+    },
+    {
+      "id": "cyberjob",
+      "category": "dotnet",
+      "featured": false,
+      "liveUrl": "https://www.cyberjob.az/",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/CyberJob",
+      "image": "/images/screenshot_20260924_115148-1790236328045.png",
+      "tags": [
+        ".Net Core MVC",
+        "PostgreSql",
+        "cshtml",
+        "Tailwind css",
+        "Laravel",
+        "Filament",
+        "Javascript"
+      ],
+      "title": {
+        "az": "CyberJob — Kiber Təhlükəsizlik və İT Karyera Portalı",
+        "en": "CyberJob — Cybersecurity & Tech Job Portal",
+        "tr": "CyberJob — Siber Güvenlik & BT Kariyer Portalı"
+      },
+      "description": {
+        "az": "Kibertəhlükəsizlik və texnologiya sahəsində vakansiya və iş elanları portalı.",
+        "en": "A job and vacancy portal focused on cybersecurity and technology roles.",
+        "tr": "Siber güvenlik ve teknoloji alanına odaklı iş ve vakansiya portalı."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Vakansiya Portalı",
+        "en": "Job Portal",
+        "tr": "İş Portalı"
+      },
+      "intro": {
+        "az": "Kibertəhlükəsizlik və texnologiya sahəsində vakansiya və iş elanları portalı.",
+        "en": "A job and vacancy portal focused on cybersecurity and technology roles.",
+        "tr": "Siber güvenlik ve teknoloji alanına odaklı iş ve vakansiya portalı."
+      }
+    },
+    {
+      "id": "idealservices",
+      "category": "dotnet",
+      "featured": false,
+      "liveUrl": "https://idealservice.az/",
+      "githubUrl": "https://idealservice.az/",
+      "image": "/images/project-idealservice.png",
+      "tags": [
+        ".Net Core",
+        "Clean Architecture",
+        "SignalR",
+        "Razor",
+        "Tailwind Css",
+        "JavaScript",
+        "PostgreSql",
+        "Redis"
+      ],
+      "title": {
+        "az": "IdealService (idealservice.az) — Usta və Xidmət Platforması",
+        "en": "IdealService (idealservice.az) — Field Service & Repair Platform",
+        "tr": "IdealService (idealservice.az) — Saha Servis & Usta Platformu"
+      },
+      "description": {
+        "az": "Yerində servis, təmir və texniki xidmətin idarə olunması üçün .NET əsaslı platforma.",
+        "en": ".NET-based platform for managing on-site service, repair and maintenance operations.",
+        "tr": "Yerinde servis, tamir ve bakım operasyonlarını yönetmek için .NET tabanlı platform."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Sahə Xidməti",
+        "en": "Field Service",
+        "tr": "Saha Servisi"
+      },
+      "intro": {
+        "az": "Yerində servis, təmir və texniki xidmətin idarə olunması üçün .NET əsaslı platforma.",
+        "en": ".NET-based platform for managing on-site service, repair and maintenance operations.",
+        "tr": "Yerinde servis, tamir ve bakım operasyonlarını yönetmek için .NET tabanlı platform."
+      }
+    },
+    {
+      "id": "ascend",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://ascend.az/",
+      "githubUrl": "https://ascend.az/",
+      "image": "/images/project-ascend.png",
+      "tags": [
+        "Laravel",
+        "Livewire",
+        "Html",
+        "Css",
+        "Javascript",
+        "MySql"
+      ],
+      "title": {
+        "az": "Ascend (ascend.az) — Korporativ İdarəetmə və Analitika Sistemi",
+        "en": "Ascend (ascend.az) — Corporate Management & Analytics Platform",
+        "tr": "Ascend (ascend.az) — Kurumsal Yönetim & Analitik Platformu"
+      },
+      "description": {
+        "az": "Korporativ idarəetmə və biznes analitikası üçün platforma: hesabatlar, göstəricilər və daxili iş axınları.",
+        "en": "Corporate management and business analytics platform: reports, KPIs and internal workflows.",
+        "tr": "Kurumsal yönetim ve iş analitiği platformu: raporlar, göstergeler ve dahili iş akışları."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Korporativ · Analitika",
+        "en": "Corporate · Analytics",
+        "tr": "Kurumsal · Analitik"
+      },
+      "intro": {
+        "az": "Korporativ idarəetmə və biznes analitikası üçün platforma: hesabatlar, göstəricilər və daxili iş axınları.",
+        "en": "Corporate management and business analytics platform: reports, KPIs and internal workflows.",
+        "tr": "Kurumsal yönetim ve iş analitiği platformu: raporlar, göstergeler ve dahili iş akışları."
+      }
+    },
+    {
+      "id": "bpa",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://bpa.az",
+      "githubUrl": "https://bpa.az",
+      "image": "/images/screenshot_20260924_115853-1790236752292.png",
+      "tags": [
+        "Laravel",
+        "Php",
+        "Redis",
+        "FMC",
+        "PostgreSql"
+      ],
+      "title": {
+        "az": "BPA Backend — Tədris Mərkəzi və İmtahan İdarəetmə Sistemi",
+        "en": "BPA Backend — Academy & Online Examination Internal System",
+        "tr": "BPA Backend — Akademi ve Sınav Dahili Yönetim Sistemi"
+      },
+      "description": {
+        "az": "Akademiya və onlayn imtahanlar üçün daxili idarəetmə və qiymətləndirmə sistemi.",
+        "en": "Internal management and assessment system for an academy and online examinations.",
+        "tr": "Akademi ve online sınavlar için dahili yönetim ve değerlendirme sistemi."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Təhsil · İmtahan Sistemi",
+        "en": "Education · Exam System",
+        "tr": "Eğitim · Sınav Sistemi"
+      },
+      "intro": {
+        "az": "Akademiya və onlayn imtahanlar üçün daxili idarəetmə və qiymətləndirmə sistemi.",
+        "en": "Internal management and assessment system for an academy and online examinations.",
+        "tr": "Akademi ve online sınavlar için dahili yönetim ve değerlendirme sistemi."
+      }
+    },
+    {
+      "id": "caspianlighting",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://caspianlighting.az/az",
+      "githubUrl": "",
+      "image": "/images/screenshot_20260924_114954-1790236219453.png",
+      "tags": [
+        "Laravel",
+        "Nwidart",
+        "FMC"
+      ],
+      "title": {
+        "az": "Caspian Lighting (caspianlighting.az) — B2B İşıqlandırma Portalı",
+        "en": "Caspian Lighting (caspianlighting.az) — B2B Lighting & Supply Portal",
+        "tr": "Caspian Lighting (caspianlighting.az) — B2B Aydınlatma & Tedarik Portalı"
+      },
+      "description": {
+        "az": "B2B işıqlandırma məhsulları kataloqu, topdansatış sifariş və təchizat portalı.",
+        "en": "B2B lighting product catalog with wholesale ordering and supply portal.",
+        "tr": "Toptan sipariş ve tedarik portalı ile B2B aydınlatma ürün kataloğu."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "B2B · İşıqlandırma",
+        "en": "B2B · Lighting",
+        "tr": "B2B · Aydınlatma"
+      },
+      "intro": {
+        "az": "B2B işıqlandırma məhsulları kataloqu, topdansatış sifariş və təchizat portalı.",
+        "en": "B2B lighting product catalog with wholesale ordering and supply portal.",
+        "tr": "Toptan sipariş ve tedarik portalı ile B2B aydınlatma ürün kataloğu."
+      }
+    },
+    {
+      "id": "tesoro",
+      "category": "ecommerce",
+      "featured": false,
+      "liveUrl": "https://tesoro.az",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/Tosero",
+      "image": "/images/screenshot_20260924_114423-1790235887099.png",
+      "tags": [
+        "Laravel",
+        "Livewire",
+        "Html",
+        "Css",
+        "MySql",
+        "Blade"
+      ],
+      "title": {
+        "az": "Tesoro — Premium E-Ticarət və İdarəetmə Paneli",
+        "en": "Tesoro — Luxury E-Commerce & Admin Platform",
+        "tr": "Tesoro — Lüks E-Ticaret & Yönetim Paneli"
+      },
+      "description": {
+        "az": "Lüks məhsullar üçün zərif onlayn mağaza və güclü idarəetmə paneli.",
+        "en": "An elegant online store for luxury goods with a powerful admin panel.",
+        "tr": "Lüks ürünler için şık bir online mağaza ve güçlü yönetim paneli."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "E-ticarət · Lüks",
+        "en": "E-commerce · Luxury",
+        "tr": "E-ticaret · Lüks"
+      },
+      "intro": {
+        "az": "Lüks məhsullar üçün zərif onlayn mağaza və güclü idarəetmə paneli.",
+        "en": "An elegant online store for luxury goods with a powerful admin panel.",
+        "tr": "Lüks ürünler için şık bir online mağaza ve güçlü yönetim paneli."
+      }
+    },
+    {
+      "id": "tamstore",
+      "repoName": "alberthaciverdiyev1/TamStore",
+      "githubUrl": "https://tamstore.ccc.az/",
+      "category": "ecommerce",
+      "image": "/images/project-tamstore.png",
+      "type": {
+        "az": "Onlayn Mağaza · Blade & Admin",
+        "en": "Online Store · Blade & Admin",
+        "tr": "Online Mağaza · Blade & Admin"
+      },
+      "title": {
+        "az": "TamStore (tamstore.ccc.az) — Onlayn Supermarket və Sifariş Sistemi",
+        "en": "TamStore (tamstore.ccc.az) — Online Grocery & Store Management",
+        "tr": "TamStore (tamstore.ccc.az) — Online Süpermarket & Sipariş Yönetimi"
+      },
+      "intro": {
+        "az": "Gündəlik tələbat və məişət məhsullarının satışı, endirim kampaniyaları və müştəri səbəti idarəsi üçün Laravel sistemi.",
+        "en": "Online department store platform featuring dynamic promotional discount engines and cart optimization.",
+        "tr": "Tüketim ürünleri satışı, indirim kampanyaları ve sepet yönetimi için geliştirilmiş Laravel mağaza altyapısı."
+      },
+      "challenge": {
+        "az": "Fərqli kateqoriyalara görə dinamik kupon, endirim faizləri və çatdırılma xərclərinin anlıq hesablanması.",
+        "en": "Real-time calculation of tiered coupon codes, basket discounts, and dynamic zone-based delivery fees.",
+        "tr": "Farklı kategorilerdeki ürünler için dinamik kupon kodları, sepet indirimleri ve bölgeye özel kargo ücretlerinin hesaplanması."
+      },
+      "contributions": {
+        "az": [
+          "Laravel ilə elastik endirim və promokod alqoritmlərinin proqramlaşdırılması",
+          "Filament ilə məhsul tədarükçüləri, kateqoriyalar və anbar inventar modulu",
+          "Müştəri hesabı, sifariş tarixçəsi və PDF qaimə çıxarışı imkanı",
+          "Axtarış və kateqoriya filtrlərinin MySQL indekslənməsi ilə sürətləndirilməsi"
+        ],
+        "en": [
+          "Engineered rule-based discount calculation and promo engine in Laravel",
+          "Built supplier management, product taxonomy, and warehouse modules with Filament",
+          "Provided customer accounts, re-ordering features, and automatic PDF invoice generation",
+          "Optimized multi-facet catalog navigation with tuned MySQL indexes"
+        ],
+        "tr": [
+          "Laravel ile kural tabanlı promosyon, indirim ve kupon hesaplama motoru",
+          "Filament ile tedarikçi yönetimi, ürün taksonomisi ve depo envanter araçları",
+          "Müşteri profili, geçmiş sipariş takibi ve otomatik PDF fatura oluşturma",
+          "Gelişmiş filtreleme ve arama sorguları için MySQL indeksleme optimizasyonu"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "Filament",
+        "MySQL",
+        "Blade"
+      ]
+    },
+    {
+      "id": "kibriskare-menu",
+      "repoName": "alberthaciverdiyev1/menu.KibrisKare.com",
+      "githubUrl": "https://menu.kibriskare.com/",
+      "category": "backend",
+      "image": "/images/project-ecommerce.png",
+      "type": {
+        "az": "Restoran & QR Menyu",
+        "en": "Restaurant QR Menu SaaS",
+        "tr": "Restoran QR Menü SaaS"
+      },
+      "title": {
+        "az": "KıbrısKare Menu (menu.kibriskare.com) — Dinamik QR Menyu Sistemi",
+        "en": "KıbrısKare Menu (menu.kibriskare.com) — Dynamic QR Menu SaaS",
+        "tr": "KıbrısKare Menü (menu.kibriskare.com) — Dinamik QR Menü Sistemi"
+      },
+      "intro": {
+        "az": "Restoran, kafe və otellər üçün dinamik QR kodlu çoxdilli menyu, kateqoriyalar, allergenlər və qiymət yeniləmə sistemi.",
+        "en": "Multi-tenant restaurant QR menu SaaS enabling instant menu customization, allergens, and multi-currency pricing.",
+        "tr": "Restoran, kafe ve oteller için dinamik QR kodlu, çok dilli menü, alerjen bilgisi ve anlık fiyat güncelleme sistemi."
+      },
+      "challenge": {
+        "az": "Mobil brauzerlərdə ani açılan, yüksək keyfiyyətli yemək şəkillərini sıxılmış şəkildə sürətli yükləyən tərtibat.",
+        "en": "Delivering sub-second initial load on low-connectivity mobile networks with optimized image compression.",
+        "tr": "Mobil tarayıcılarda saniyeler içinde açılan ve yüksek çözünürlüklü yemek fotoğraflarını optimize ederek yükleyen yapı."
+      },
+      "contributions": {
+        "az": [
+          "Laravel və Filament ilə restoran filialları və masa QR kodlarının generasiyası",
+          "Çoxdilli menyu (AZ, EN, TR, RU) və allergen filtrləri arxitekturası",
+          "Şəkillərin avtomatik WebP formatına çevrilməsi və keşlənməsi",
+          "Restoran sahibləri üçün anlıq qiymət dəyişmə və stok tükənmə idarəsi"
+        ],
+        "en": [
+          "Built automated SVG/PNG table-specific QR code generator with brand watermarking",
+          "Engineered multilingual menu support (AZ, EN, TR, RU) with dietary allergen tags",
+          "Automated media ingestion pipeline converting menu photography into lightweight WebP formats",
+          "Created responsive operator panel for instant price toggling and sold-out items"
+        ],
+        "tr": [
+          "Laravel ve Filament ile masa bazlı dinamik QR kod oluşturma motoru",
+          "Çok dilli menü desteği (AZ, EN, TR, RU) ve alerjen filtreleme mimarisi",
+          "Görsellerin otomatik WebP formatına dönüştürülmesi ve CDN önbellek yönetimi",
+          "Restoran yöneticileri için anlık fiyat değiştirme ve tükenen ürün kapatma araçları"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "Filament",
+        "MySQL",
+        "QR Generation",
+        "Blade"
+      ]
+    },
+    {
+      "id": "evet-az",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://evet.az/",
+      "githubUrl": "https://evet.az/",
+      "image": "/images/project-evet.png",
+      "tags": [
+        ".Net MVC",
+        "Cshtml",
+        "Mysql"
+      ],
+      "title": {
+        "az": "Evet.az (evet.az) — Tədbir Qeydiyyatı və Bilet Satışı",
+        "en": "Evet.az (evet.az) — Event Registration & Ticketing",
+        "tr": "Evet.az (evet.az) — Etkinlik Kaydı & Biletleme"
+      },
+      "description": {
+        "az": "Tədbir qeydiyyatı və onlayn bilet satışı üçün platforma.",
+        "en": "A platform for event registration and online ticket sales.",
+        "tr": "Etkinlik kaydı ve online bilet satışı için platform."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Tədbir · Bilet",
+        "en": "Events · Ticketing",
+        "tr": "Etkinlik · Bilet"
+      },
+      "intro": {
+        "az": "Tədbir qeydiyyatı və onlayn bilet satışı üçün platforma.",
+        "en": "A platform for event registration and online ticket sales.",
+        "tr": "Etkinlik kaydı ve online bilet satışı için platform."
+      }
+    },
+    {
+      "id": "royastars",
+      "category": "Full Stack",
+      "featured": false,
+      "liveUrl": "",
+      "githubUrl": "http://royastar.name.az/",
+      "image": "/images/project-royastar.png",
+      "tags": [
+        "PHP",
+        "Laravel",
+        "Vue.js",
+        "Blade",
+        "Tailwind Css",
+        "JavaScript"
+      ],
+      "title": {
+        "az": "RoyaStars (royastar.name.az) — Tədris Mərkəzi İdarəetmə Sistemi",
+        "en": "RoyaStars (royastar.name.az) — Educational Center Management",
+        "tr": "RoyaStars (royastar.name.az) — Kurs & Eğitim Merkezi Yönetim Sistemi"
+      },
+      "description": {
+        "az": "Təhsil mərkəzi üçün tələbə, qrup və kurs idarəetmə sistemi.",
+        "en": "Student, group and course management system for an education center.",
+        "tr": "Bir eğitim merkezi için öğrenci, grup ve kurs yönetim sistemi."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Təhsil İdarəetmə",
+        "en": "Education Management",
+        "tr": "Eğitim Yönetimi"
+      },
+      "intro": {
+        "az": "Təhsil mərkəzi üçün tələbə, qrup və kurs idarəetmə sistemi.",
+        "en": "Student, group and course management system for an education center.",
+        "tr": "Bir eğitim merkezi için öğrenci, grup ve kurs yönetim sistemi."
+      }
+    },
+    {
+      "id": "ikili2",
+      "repoName": "NS-Studio-LLC/ikili2",
+      "githubUrl": "https://ikili2.com/",
+      "category": "ecommerce",
+      "image": "/images/project-ikili2.png",
+      "type": {
+        "az": "E-Ticarət & Pərakəndə",
+        "en": "Retail & E-Commerce",
+        "tr": "E-Ticaret & Perakende"
+      },
+      "title": {
+        "az": "İkili İki (ikili2.com) — Çoxkanallı Pərakəndə E-Ticarət",
+        "en": "İkili İki (ikili2.com) — Omnichannel Retail E-Commerce",
+        "tr": "İkili İki (ikili2.com) — Çok Kanallı Perakende E-Ticaret"
+      },
+      "intro": {
+        "az": "Pərakəndə satış nöqtələri və onlayn müştərilər üçün vahid məhsul kataloqu, sifariş və kuryer idarəsi.",
+        "en": "Omnichannel retail commerce engine linking online store orders with brick-and-mortar store inventory.",
+        "tr": "Perakende mağaza ve online müşteriler için tekil ürün kataloğu, sipariş ve kurye yönetim platformu."
+      },
+      "challenge": {
+        "az": "Müxtəlif satış kanallarından gələn sifarişlərin mərkəzi anbarla anlıq sinxronizasiyası.",
+        "en": "Synchronizing fluctuating store inventory with active online storefront baskets in real time.",
+        "tr": "Farklı kanallardan gelen siparişlerin merkezi depo stoğu ile anlık senkronizasyonu."
+      },
+      "contributions": {
+        "az": [
+          "Laravel və Filament ilə mərkəzləşdirilmiş sifariş idarəsi",
+          "Məhsul barkodları və kateqoriyalar üzrə sürətli axtarış",
+          "Kuryer çatdırılma marşrutları və status yeniləmələri",
+          "Ödəniş sistemləri və avtomatik qəbz göndərilməsi"
+        ],
+        "en": [
+          "Unified multiple order funnels into an integrated Filament back-office",
+          "Structured barcode scanning and fast category lookup in MySQL",
+          "Implemented courier dropoff updates and live customer tracking",
+          "Integrated automated transaction receipts and payment gateway settlement"
+        ],
+        "tr": [
+          "Laravel ve Filament ile merkezi sipariş ve sevkiyat yönetimi",
+          "Ürün barkodları ve kategoriler üzerinde hızlı arama altyapısı",
+          "Kurye dağıtım rotaları ve anlık teslimat durum güncellemeleri",
+          "Ödeme sistemleri entegrasyonu ve otomatik faturalandırma"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "Filament",
+        "MySQL",
+        "Livewire"
+      ]
+    },
+    {
+      "id": "youmedia",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://youmedia.az/",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/youmedia-private",
+      "image": "/images/screenshot_20260924_120226-1790236963738.png",
+      "tags": [
+        "PHP",
+        "Laravel",
+        "Filament",
+        "Blade",
+        "Mysql"
+      ],
+      "title": {
+        "az": "YouMedia — Rəqəmsal Media və Məzmun İdarəsi",
+        "en": "YouMedia — Digital Media & Streaming Content Engine",
+        "tr": "YouMedia — Dijital Medya & İçerik Yönetimi"
+      },
+      "description": {
+        "az": "Rəqəmsal media və striming məzmununun idarə olunması üçün mühərrik.",
+        "en": "A content engine for managing digital media and streaming content.",
+        "tr": "Dijital medya ve yayın içeriğini yönetmek için bir içerik motoru."
+      },
+      "highlights": {
+        "az": [],
+        "en": [],
+        "tr": []
+      },
+      "challenges": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "impact": {
+        "az": "",
+        "en": "",
+        "tr": ""
+      },
+      "type": {
+        "az": "Media · Strinning",
+        "en": "Media · Streaming",
+        "tr": "Medya · Yayın"
+      },
+      "intro": {
+        "az": "Rəqəmsal media və striming məzmununun idarə olunması üçün mühərrik.",
+        "en": "A content engine for managing digital media and streaming content.",
+        "tr": "Dijital medya ve yayın içeriğini yönetmek için bir içerik motoru."
+      }
+    },
+    {
+      "id": "goldenfruit",
+      "repoName": "alberthaciverdiyev1/GoldenFruit",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/GoldenFruit",
+      "category": "dotnet",
+      "image": "/images/project-corporate.png",
+      "type": {
+        "az": "Kənd Təsərrüfatı & İxrac",
+        "en": "Agri-Business & Export",
+        "tr": "Tarım & İhracat Yönetimi"
+      },
+      "title": {
+        "az": "GoldenFruit — Kənd Təsərrüfatı və Təchizat İdarəsi",
+        "en": "GoldenFruit — Agricultural Supply & Logistics",
+        "tr": "GoldenFruit — Tarımsal Tedarik & Lojistik Sistemi"
+      },
+      "intro": {
+        "az": "Meyvə-tərəvəz tədarükü, soyuq anbar saxlancı, ixrac partiyaları və logistika uçotu üçün .NET Core və Go platforması.",
+        "en": "Agricultural distribution software handling cold-storage lot tracking, international export contracts, and freight routing.",
+        "tr": "Meyve-sebze tedariki, soğuk hava deposu partileri, ihracat sözleşmeleri ve lojistik takibi için .NET Core ve Go platformu."
+      },
+      "challenge": {
+        "az": "Partiya nömrələri (Batch/Lot) ilə məhsulun saxlanma müddəti və çəki itkilərinin logistikada izlənməsi.",
+        "en": "Auditing perishable lot expiry windows, temperature compliance logs, and weight loss fluctuations during shipment.",
+        "tr": "Parti (Batch/Lot) numaralarıyla ürünlerin raf ömrü, soğuk zincir kayıtları ve nakliye sırasındaki fire oranlarının takibi."
+      },
+      "contributions": {
+        "az": [
+          ".NET Core MVC və C# ilə təchizat və ixrac partiyaları arxitekturası",
+          "Go ilə sürətli anbar hərəkətləri və inventar sinxronizasiyası",
+          "Soyuq anbar temperatur qeydləri və xəbərdarlıq mexanizmi",
+          "SQL Server üzərində xərc analitikası və ixrac gəlirliliyi hesabatı"
+        ],
+        "en": [
+          "Architected export contract and batch shipment pipelines using .NET Core MVC",
+          "Implemented Go daemon handling high-frequency warehouse inventory synchronization",
+          "Logged cold-storage sensor telemetry with automated threshold alerts",
+          "Constructed SQL Server financial rollups measuring net container export profitability"
+        ],
+        "tr": [
+          ".NET Core MVC ve C# ile tedarik, ihracat sözleşmeleri ve parti takip mimarisi",
+          "Go diliyle yüksek hızlı depo hareketleri ve envanter senkronizasyonu servisi",
+          "Soğuk hava deposu sıcaklık kayıtları ve kritik durum bildirimleri",
+          "SQL Server üzerinde konteyner bazlı maliyet ve karlılık analiz raporları"
+        ]
+      },
+      "stack": [
+        ".NET Core MVC",
+        "C#",
+        "Go",
+        "SQL Server",
+        "templ"
+      ]
+    },
+    {
+      "id": "jobhunt-net",
+      "repoName": "alberthaciverdiyev1/JobHunt-.NET-Core",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/JobHunt-.NET-Core",
+      "category": "dotnet",
+      "image": "/images/project-corporate.png",
+      "type": {
+        "az": "Vakansiya Platforması · .NET",
+        "en": "Recruitment Suite · .NET",
+        "tr": "Kariyer Platformu · .NET"
+      },
+      "title": {
+        "az": "JobHunt — .NET Core Əsaslı Vakansiya Sistemi",
+        "en": "JobHunt — .NET Core Job Search Platform",
+        "tr": "JobHunt — .NET Core Tabanlı İş Arama Platformu"
+      },
+      "intro": {
+        "az": "C# və .NET Core MVC arxitekturası ilə hazırlanmış, mürəkkəb vakansiya filtrləri və şirkət profilləri olan iş axtarış platforması.",
+        "en": "Enterprise recruitment web application engineered with C# and .NET Core MVC, featuring rich vacancy matching filters.",
+        "tr": "C# ve .NET Core MVC mimarisiyle geliştirilmiş, kapsamlı ilan filtreleme ve şirket profillerine sahip iş arama platformu."
+      },
+      "challenge": {
+        "az": "Geniş elan bazasında təcrübə, əməkhaqqı aralığı və texnologiya meyarları üzrə SQL sorğularını optimallaşdırmaq.",
+        "en": "Optimizing relational SQL queries across salary ranges, seniority, and specific technical stacks without degradation.",
+        "tr": "Büyük ilan veritabanında maaş aralığı, deneyim ve teknoloji filtrelerinde SQL sorgularını hızlandırmak."
+      },
+      "contributions": {
+        "az": [
+          ".NET Core MVC və Entity Framework Core ilə korporativ vakansiya backend-i",
+          "SQL Server üzərində relyasiyalı açar sözlər və elan axtarış indeksi",
+          "Namizədlər üçün tək toxunuşla CV göndərmə və status izləmə kabineti",
+          "Şirkət administratorları üçün namizəd müraciətlərini dəyərləndirmə modulu"
+        ],
+        "en": [
+          "Built structured .NET Core MVC application with Entity Framework Core data layer",
+          "Indexed SQL Server vacancy repositories supporting multi-attribute filtering",
+          "Crafted applicant workflow for one-click resume submission and status inspection",
+          "Delivered hiring manager dashboard to evaluate and advance candidate pipelines"
+        ],
+        "tr": [
+          ".NET Core MVC ve Entity Framework Core ile kurumsal kariyer backend mimarisi",
+          "SQL Server üzerinde çok kriterli ilan ve aday arama indeksleri",
+          "Adaylar için tek tıkla başvuru yapma ve süreç takip paneli",
+          "Şirket yöneticileri için aday havuzunu değerlendirme ve mülakata çağırma araçları"
+        ]
+      },
+      "stack": [
+        ".NET Core",
+        "C#",
+        "Entity Framework Core",
+        "MVC",
+        "SQL Server"
+      ]
+    },
+    {
+      "id": "chartdb-ext",
+      "repoName": "alberthaciverdiyev1/ChartDB-Chrome-Extension",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/ChartDB-Chrome-Extension",
+      "category": "tools",
+      "image": "/images/project-corporate.png",
+      "type": {
+        "az": "Developer Aləti · Extension",
+        "en": "Dev Tool · Chrome Extension",
+        "tr": "Geliştirici Aracı · Uzantı"
+      },
+      "title": {
+        "az": "ChartDB Chrome Extension — Verilənlər Sxem Analizatoru",
+        "en": "ChartDB Chrome Extension — Database Schema Visualizer",
+        "tr": "ChartDB Chrome Eklentisi — Veritabanı Şema Görüntüleyici"
+      },
+      "intro": {
+        "az": "Veb üzərində verilənlər bazası şemalarını, ERD diaqramlarını və cədvəl əlaqələrini dərhal vizuallaşdıran brauzer əlavəsi.",
+        "en": "Chrome Extension Manifest V3 tool visualizing relational schemas, foreign keys, and ERD diagrams directly in-browser.",
+        "tr": "Web üzerinde veritabanı şemalarını, ERD diyagramlarını ve tablo ilişkilerini anında görselleştiren Chrome uzantısı."
+      },
+      "challenge": {
+        "az": "Brauzer təhlükəsizlik qaydalarını (CSP) pozmadan DDL SQL skriptlərini sürətlə vizual diaqrama çevirmək.",
+        "en": "Parsing complex DDL SQL dialects in-memory and generating visual interactive graphs complying with Manifest V3 CSP.",
+        "tr": "Karmaşık DDL SQL scriptlerini tarayıcı belleğinde ayrıştırarak Manifest V3 güvenlik kurallarına uygun etkileşimli grafik üretmek."
+      },
+      "contributions": {
+        "az": [
+          "Chrome Manifest V3 standartlarına tam uyğun JavaScript və DOM arxitekturası",
+          "SQL DDL (CREATE TABLE, FOREIGN KEY) sintaksisinin anında pars edilməsi",
+          "İnteraktiv ERD diaqramlarının generasiyası və cədvəl əlaqələrinin vizual xətləri",
+          "Layihə diaqramlarının PNG və SVG formatında ixrac imkanı"
+        ],
+        "en": [
+          "Engineered fully compliant Chrome Manifest V3 extension architecture",
+          "Built in-memory SQL DDL parser resolving tables, primary keys, and foreign relations",
+          "Generated interactive ERD node graphs with relationship connector lines",
+          "Added single-click export options supporting high-res PNG and vector SVG diagrams"
+        ],
+        "tr": [
+          "Chrome Manifest V3 standartlarına tam uyumlu JavaScript ve DOM mimarisi",
+          "SQL DDL (CREATE TABLE, FOREIGN KEY) komutlarının anlık ayrıştırılması",
+          "Etkileşimli ERD diyagramları ve tablolar arası ilişki çizgilerinin oluşturulması",
+          "Veritabanı şemalarının yüksek çözünürlüklü PNG ve vektörel SVG olarak dışa aktarımı"
+        ]
+      },
+      "stack": [
+        "JavaScript",
+        "Chrome Manifest V3",
+        "ERD Diagrams",
+        "DOM API"
+      ]
+    },
+    {
+      "id": "bot-and-scraper-suite",
+      "repoName": "alberthaciverdiyev1/JobScraperForAzSites",
+      "githubUrl": "https://github.com/alberthaciverdiyev1/JobScraperForAzSites",
+      "category": "tools",
+      "image": "/images/project-corporate.png",
+      "type": {
+        "az": "Avtomatlaşdırma & Botlar · ETL",
+        "en": "Automation & Bots · ETL Suite",
+        "tr": "Otomasyon & Botlar · ETL Paketi"
+      },
+      "title": {
+        "az": "Automated Scrapers & Bot Suite — Məlumat Toplama və Bot Ekosistemi",
+        "en": "Automated Scrapers & Bot Suite — Data Crawlers & Automation Daemon",
+        "tr": "Otomatik Scraper ve Bot Paketi — Veri Toplama & Otomasyon Ekosistemi"
+      },
+      "intro": {
+        "az": "İş elanları və daşınmaz əmlak üçün yüksək sürətli skreper servisləri (JobScraper, 101Evler), LinkedIn avtomatlaşdırma botları və musiqi sinxronizasiya alətləri toplusu.",
+        "en": "Comprehensive automation ecosystem combining high-throughput vacancy crawlers, real estate scrapers, LinkedIn auto-post/connection daemons, and media sync tools.",
+        "tr": "İş ilanları ve emlak için yüksek hızlı veri kazıma servisleri (JobScraper, 101Evler), LinkedIn otomasyon botları ve müzik senkronizasyon araçları paketi."
+      },
+      "challenge": {
+        "az": "Müxtəlif platformalarda anti-bot və tezlik məhdudiyyətlərini (Rate Limiting) aşaraq minlərlə məlumatı qəzasız toplamaq və arxa fonda daimi işlək saxlamaq.",
+        "en": "Overcoming dynamic anti-bot defenses, navigating strict platform rate throttles, and running resilient continuous cron workers without downtime.",
+        "tr": "Farklı platformların anti-bot ve hız sınırlamalarını aşarak binlerce veriyi hatasız toplamak ve arka planda kesintisiz çalıştırmak."
+      },
+      "contributions": {
+        "az": [
+          "JobScraper: Azərbaycan üzrə vakansiya saytlarını avtomatik toplayan, duplikatları təmizləyən və mərkəzi bazaya ötürən Node.js/Puppeteer mühərriki",
+          "HomeScraper: Şimali Kipr 101evler.com əmlak elanlarını dəqiq atributlar üzrə parse edən və indeksləyən TypeScript ETL servisi",
+          "LinkedIn Automation Bot: LinkedIn-də təyin olunmuş vaxtlarda avtomatik məzmun paylaşımı və hədəf İT mütəxəssislərinə şəbəkə sorğusu göndərən Go/Node botları",
+          "Shazam to YouTube Music Sync: Shazam-da aşkarlanan mahnıları avtomatik aşkarlayıb YouTube Music pleylistinə əlavə edən sürətli Go mikroservisi"
+        ],
+        "en": [
+          "JobScraper: Headless Node.js/Puppeteer crawler parsing Azerbaijani job portals and normalizing listings into PostgreSQL",
+          "HomeScraper: TypeScript ETL pipeline scraping Northern Cyprus 101evler.com real estate listings with spatial property coordinates",
+          "LinkedIn Automation Suite: Autonomous Go and Node.js daemons orchestrating scheduled technical article posts and target network growth",
+          "Shazam to YouTube Music Sync: Lightweight Go background service resolving fuzzy track titles and syncing into YouTube Music playlists via OAuth2"
+        ],
+        "tr": [
+          "JobScraper: Azerbaycan iş sitelerindeki ilanları toplayan, mükerrerleri eleyen ve veritabanına aktaran Node.js/Puppeteer motoru",
+          "HomeScraper: Kuzey Kıbrıs 101evler.com emlak ilanlarını ve koordinatlarını ayrıştıran TypeScript ETL servisi",
+          "LinkedIn Otomasyon Paketi: Belirlenen saatlerde içerik paylaşan ve hedef profesyonellere bağlantı isteği gönderen Go/Node botları",
+          "Shazam to YouTube Music: Shazam'da tanınan parçaları YouTube Music çalma listesine anlık ekleyen saf Go mikroservisi"
+        ]
+      },
+      "stack": [
+        "Go",
+        "TypeScript",
+        "Node.js",
+        "Puppeteer",
+        "Cheerio",
+        "Cron",
+        "PostgreSQL",
+        "OAuth2"
+      ]
+    },
+    {
+      "id": "avtosistem",
+      "category": "ecommerce",
+      "featured": false,
+      "liveUrl": "https://avtosistem.az",
+      "githubUrl": "https://avtosistem.az",
+      "repoName": "avtosistem.az",
+      "image": "/images/project-avtosistem.png",
+      "type": {
+        "az": "E-ticarət · Avto Hissələri",
+        "en": "E-commerce · Auto Parts",
+        "tr": "E-ticaret · Oto Yedek Parça"
+      },
+      "title": {
+        "az": "Avtosistem — Avtomobil Ehtiyat Hissələri Mərkəzi",
+        "en": "Avtosistem — Auto Spare Parts Center",
+        "tr": "Avtosistem — Otomobil Yedek Parça Merkezi"
+      },
+      "intro": {
+        "az": "Dünya brendlərini bir nöqtədə birləşdirən, avtomobil ehtiyat hissələrinin onlayn satış platforması.",
+        "en": "An online marketplace bringing world auto brands together for spare parts and accessories.",
+        "tr": "Dünya markalarını tek noktada birleştiren oto yedek parça ve aksesuar online satış platformu."
+      },
+      "challenge": {
+        "az": "Geniş məhsul kataloqunu marka/modelə görə sürətli axtarış və filtrləmə ilə təqdim etmək.",
+        "en": "Presenting a large product catalog with fast brand/model search and filtering.",
+        "tr": "Geniş ürün kataloğunu marka/model bazlı hızlı arama ve filtreleme ile sunmak."
+      },
+      "contributions": {
+        "az": [
+          "Məhsul kataloqu və kateqoriya idarəetməsi",
+          "Səbət və sifariş axını",
+          "Marka/model üzrə axtarış",
+          "Admin idarəetmə paneli"
+        ],
+        "en": [
+          "Product catalog and category management",
+          "Cart and order flow",
+          "Brand/model based search",
+          "Admin management panel"
+        ],
+        "tr": [
+          "Ürün kataloğu ve kategori yönetimi",
+          "Sepet ve sipariş akışı",
+          "Marka/model bazlı arama",
+          "Yönetim paneli"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "JavaScript"
+      ],
+      "tags": [
+        "Laravel",
+        "MySQL",
+        "E-commerce"
+      ]
+    },
+    {
+      "id": "generalelevator",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://generalelevator.az",
+      "githubUrl": "https://generalelevator.az",
+      "repoName": "generalelevator.az",
+      "image": "/images/project-generalelevator.png",
+      "type": {
+        "az": "Korporativ · Lift Sistemləri",
+        "en": "Corporate · Elevator Systems",
+        "tr": "Kurumsal · Asansör Sistemleri"
+      },
+      "title": {
+        "az": "General Elevator LLC — Lift və Asansör Sistemləri",
+        "en": "General Elevator LLC — Elevator & Lift Systems",
+        "tr": "General Elevator LLC — Asansör ve Lift Sistemleri"
+      },
+      "intro": {
+        "az": "General Elevator, LINVOL və Midea lift həllərinin Azərbaycan və Türkiyə üzrə rəsmi distribyutoru üçün korporativ platforma.",
+        "en": "Corporate platform for the official Azerbaijani and Turkish distributor of General Elevator, LINVOL and Midea lift solutions.",
+        "tr": "General Elevator, LINVOL ve Midea asansör çözümlerinin Azerbaycan ve Türkiye resmi distribütörü için kurumsal platform."
+      },
+      "challenge": {
+        "az": "Geniş servis şəbəkəsi və məhsul kataloqunu peşəkar korporativ təqdimatla birləşdirmək.",
+        "en": "Combining a wide service network and product catalog with a professional corporate presentation.",
+        "tr": "Geniş servis ağı ve ürün kataloğunu profesyonel kurumsal sunumla birleştirmek."
+      },
+      "contributions": {
+        "az": [
+          "Çoxdilli korporativ sayt",
+          "Məhsul və xidmət kataloqu",
+          "Əlaqə və təklif formaları",
+          "CMS əsaslı idarəetmə"
+        ],
+        "en": [
+          "Multilingual corporate website",
+          "Product and service catalog",
+          "Contact and quote forms",
+          "CMS-based management"
+        ],
+        "tr": [
+          "Çok dilli kurumsal site",
+          "Ürün ve hizmet kataloğu",
+          "İletişim ve teklif formları",
+          "CMS tabanlı yönetim"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL"
+      ],
+      "tags": [
+        "Korporativ",
+        "Çoxdilli",
+        "CMS"
+      ]
+    },
+    {
+      "id": "zenith",
+      "category": "ecommerce",
+      "featured": false,
+      "liveUrl": "https://www.zenith.az",
+      "githubUrl": "https://www.zenith.az",
+      "repoName": "zenith.az",
+      "image": "/images/project-zenith.png",
+      "type": {
+        "az": "E-ticarət · Zərgərlik",
+        "en": "E-commerce · Fine Jewelry",
+        "tr": "E-ticaret · Mücevher"
+      },
+      "title": {
+        "az": "Zenith — Zərif Zərgərlik Kolleksiyası",
+        "en": "Zenith — Fine Jewelry Collection",
+        "tr": "Zenith — Zarif Mücevher Koleksiyonu"
+      },
+      "intro": {
+        "az": "Zərif zinət əşyaları kolleksiyasını təqdim edən, zərif dizaynlı zərgərlik e-ticarət platforması.",
+        "en": "An elegantly designed jewelry e-commerce platform presenting a fine jewelry collection.",
+        "tr": "Zarif mücevher koleksiyonunu sunan, şık tasarımlı mücevher e-ticaret platformu."
+      },
+      "challenge": {
+        "az": "Estetik və zərif brend təcrübəsini rahat alış-veriş axını ilə uzlaşdırmaq.",
+        "en": "Reconciling an aesthetic, delicate brand experience with a smooth shopping flow.",
+        "tr": "Estetik ve zarif marka deneyimini akıcı bir alışveriş akışıyla uyumlu hale getirmek."
+      },
+      "contributions": {
+        "az": [
+          "Məhsul kolleksiyaları və filtrləmə",
+          "Brend-uyğun zərif interfeys",
+          "Səbət və sifariş",
+          "Mobil-uyğun dizayn"
+        ],
+        "en": [
+          "Product collections and filtering",
+          "Brand-aligned elegant interface",
+          "Cart and checkout",
+          "Mobile-friendly design"
+        ],
+        "tr": [
+          "Ürün koleksiyonları ve filtreleme",
+          "Markaya uygun zarif arayüz",
+          "Sepet ve sipariş",
+          "Mobil uyumlu tasarım"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "JavaScript"
+      ],
+      "tags": [
+        "E-commerce",
+        "UI/UX",
+        "Laravel"
+      ]
+    },
+    {
+      "id": "goksankablo",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://goksankablo.az",
+      "githubUrl": "https://goksankablo.az",
+      "repoName": "goksankablo.az",
+      "image": "/images/project-goksankablo.png",
+      "type": {
+        "az": "Korporativ · Kabel İstehsalatı",
+        "en": "Corporate · Cable Manufacturing",
+        "tr": "Kurumsal · Kablo Üretimi"
+      },
+      "title": {
+        "az": "Göksan Kablo MMC — Sənaye Kabel Sistemləri",
+        "en": "Göksan Kablo MMC — Industrial Cable Systems",
+        "tr": "Göksan Kablo MMC — Endüstriyel Kablo Sistemleri"
+      },
+      "intro": {
+        "az": "Sənaye üçün etibarlı kabel və layihə həlləri təqdim edən istehsalat şirkətinin korporativ platforması.",
+        "en": "Corporate platform of a manufacturing company delivering reliable industrial cable and project solutions.",
+        "tr": "Endüstri için güvenilir kablo ve proje çözümleri sunan bir üretim şirketinin kurumsal platformu."
+      },
+      "challenge": {
+        "az": "Texniki məhsul çeşidini aydın kateqoriyalar və korporativ təqdimatla göstərmək.",
+        "en": "Showcasing a technical product range with clear categories and a corporate presentation.",
+        "tr": "Teknik ürün yelpazesini net kategoriler ve kurumsal sunumla sergilemek."
+      },
+      "contributions": {
+        "az": [
+          "Məhsul kataloqu və texniki sənədlər",
+          "Çoxdilli korporativ sayt",
+          "Layihə referansları",
+          "Əlaqə modulu"
+        ],
+        "en": [
+          "Product catalog and technical documents",
+          "Multilingual corporate website",
+          "Project references",
+          "Contact module"
+        ],
+        "tr": [
+          "Ürün kataloğu ve teknik dokümanlar",
+          "Çok dilli kurumsal site",
+          "Proje referansları",
+          "İletişim modülü"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL"
+      ],
+      "tags": [
+        "Korporativ",
+        "Kataloq",
+        "Çoxdilli"
+      ]
+    },
+    {
+      "id": "khazarcable",
+      "category": "ecommerce",
+      "featured": false,
+      "liveUrl": "https://khazarcable.com",
+      "githubUrl": "https://khazarcable.com",
+      "repoName": "khazarcable.com",
+      "image": "/images/project-khazarcable.png",
+      "type": {
+        "az": "E-ticarət · Elektrik Kabelləri",
+        "en": "E-commerce · Electrical Cables",
+        "tr": "E-ticaret · Elektrik Kabloları"
+      },
+      "title": {
+        "az": "Xəzər Kablo — Elektrik Kabel Onlayn Mağazası",
+        "en": "Khazar Cable — Electrical Cable Online Store",
+        "tr": "Khazar Cable — Elektrik Kablosu Online Mağazası"
+      },
+      "intro": {
+        "az": "Alçaq gərginlikli güc kabelləri və elektrik materiallarının onlayn satış mağazası.",
+        "en": "An online store for low-voltage power cables and electrical materials.",
+        "tr": "Alçak gerilim güç kabloları ve elektrik malzemeleri için online mağaza."
+      },
+      "challenge": {
+        "az": "Texniki spesifikasiyalı kabelləri qiymət və stokla birlikdə rahat axtarılan kataloqda təqdim etmək.",
+        "en": "Presenting technically specified cables in an easily searchable catalog with prices and stock.",
+        "tr": "Teknik özellikli kabloları fiyat ve stokla birlikte kolay aranabilir bir katalogda sunmak."
+      },
+      "contributions": {
+        "az": [
+          "Məhsul kataloqu və kateqoriyalar",
+          "Qiymət və stok göstəriciləri",
+          "Səbət və sifariş",
+          "Axtarış və filtr"
+        ],
+        "en": [
+          "Product catalog and categories",
+          "Price and stock indicators",
+          "Cart and ordering",
+          "Search and filtering"
+        ],
+        "tr": [
+          "Ürün kataloğu ve kategoriler",
+          "Fiyat ve stok göstergeleri",
+          "Sepet ve sipariş",
+          "Arama ve filtreleme"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "JavaScript"
+      ],
+      "tags": [
+        "E-commerce",
+        "Kataloq",
+        "Laravel"
+      ]
+    },
+    {
+      "id": "ecostar",
+      "category": "ecommerce",
+      "featured": false,
+      "liveUrl": "https://eco-star.az",
+      "githubUrl": "https://eco-star.az",
+      "repoName": "eco-star.az",
+      "image": "/images/project-ecostar.png",
+      "type": {
+        "az": "E-ticarət · Təmizlik Məhsulları",
+        "en": "E-commerce · Cleaning Products",
+        "tr": "E-ticaret · Temizlik Ürünleri"
+      },
+      "title": {
+        "az": "Ecostar — Təmizlik və Gigiyena Məhsulları",
+        "en": "Ecostar — Cleaning & Hygiene Products",
+        "tr": "Ecostar — Temizlik ve Hijyen Ürünleri"
+      },
+      "intro": {
+        "az": "100% təkrar emal edilə bilən plastik məhsullar, əl isladıcı, kağız və təmizlik vasitələrinin onlayn platforması.",
+        "en": "Online platform for 100% recyclable plastic products, hand sanitizers, paper and cleaning supplies.",
+        "tr": "100% geri dönüştürülebilir plastik ürünler, el dezenfektanı, kağıt ve temizlik malzemeleri için online platform."
+      },
+      "challenge": {
+        "az": "Geniş FMCG məhsul çeşidini sürətli və mobil-uyğun alış-veriş təcrübəsi ilə təqdim etmək.",
+        "en": "Delivering a broad FMCG product range with a fast, mobile-friendly shopping experience.",
+        "tr": "Geniş FMCG ürün yelpazesini hızlı ve mobil uyumlu alışveriş deneyimiyle sunmak."
+      },
+      "contributions": {
+        "az": [
+          "Məhsul kataloqu və kateqoriyalar",
+          "Kampaniya və endirim blokları",
+          "Səbət və sifariş axını",
+          "Mobil-uyğun interfeys"
+        ],
+        "en": [
+          "Product catalog and categories",
+          "Campaign and discount blocks",
+          "Cart and order flow",
+          "Mobile-friendly interface"
+        ],
+        "tr": [
+          "Ürün kataloğu ve kategoriler",
+          "Kampanya ve indirim blokları",
+          "Sepet ve sipariş akışı",
+          "Mobil uyumlu arayüz"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL"
+      ],
+      "tags": [
+        "E-commerce",
+        "FMCG",
+        "Laravel"
+      ]
+    },
+    {
+      "id": "mhm",
+      "category": "backend",
+      "featured": false,
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.app.mhm",
+      "githubUrl": "https://play.google.com/store/apps/details?id=com.app.mhm",
+      "repoName": "MHM Qonaq",
+      "image": "/images/project-mhm.png",
+      "type": {
+        "az": "Mobil Tətbiq · Android",
+        "en": "Mobile App · Android",
+        "tr": "Mobil Uygulama · Android"
+      },
+      "title": {
+        "az": "MHM Qonaq — Qonaqlıq İdarəetmə Tətbiqi",
+        "en": "MHM Qonaq — Hospitality Management App",
+        "tr": "MHM Qonaq — Konaklama Yönetim Uygulaması"
+      },
+      "intro": {
+        "az": "Qonaqlıq və restoran biznesinin gündəlik əməliyyatlarını idarə etmək üçün Android mobil tətbiq.",
+        "en": "Android mobile application for managing the daily operations of hospitality and restaurant businesses.",
+        "tr": "Konaklama ve restoran işletmelerinin günlük operasyonlarını yönetmek için Android mobil uygulama."
+      },
+      "challenge": {
+        "az": "Məşğul biznes mühitində operativ, etibarlı və oflayn-davamlı mobil təcrübə təqdim etmək.",
+        "en": "Providing a fast, reliable and offline-resilient mobile experience in a busy business environment.",
+        "tr": "Yoğun iş ortamında hızlı, güvenilir ve çevrimdışı dayanıklı mobil deneyim sunmak."
+      },
+      "contributions": {
+        "az": [
+          "Android mobil tətbiq",
+          "REST API inteqrasiyası",
+          "Sifariş və əməliyyat idarəetməsi",
+          "Bildiriş sistemi"
+        ],
+        "en": [
+          "Android mobile application",
+          "REST API integration",
+          "Order and operations management",
+          "Notification system"
+        ],
+        "tr": [
+          "Android mobil uygulama",
+          "REST API entegrasyonu",
+          "Sipariş ve operasyon yönetimi",
+          "Bildirim sistemi"
+        ]
+      },
+      "stack": [
+        "Android",
+        "REST API",
+        "Node.js"
+      ],
+      "tags": [
+        "Mobile",
+        "Android",
+        "REST API"
+      ]
+    },
+    {
+      "id": "mhm-kurd",
+      "category": "backend",
+      "featured": false,
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.app.mhm.kurd",
+      "githubUrl": "https://play.google.com/store/apps/details?id=com.app.mhm.kurd",
+      "repoName": "MHM Kurs",
+      "image": "/images/project-mhm-kurd.png",
+      "type": {
+        "az": "Mobil Tətbiq · Təhsil",
+        "en": "Mobile App · Education",
+        "tr": "Mobil Uygulama · Eğitim"
+      },
+      "title": {
+        "az": "MHM Kurs — Təhsil İdarəetmə Tətbiqi",
+        "en": "MHM Kurs — Education Management App",
+        "tr": "MHM Kurs — Eğitim Yönetim Uygulaması"
+      },
+      "intro": {
+        "az": "Təhsil mərkəzləri üçün tələbə, kurs və davamiyyət idarəetməsini asanlaşdıran Android tətbiqi.",
+        "en": "Android application that simplifies student, course and attendance management for education centers.",
+        "tr": "Eğitim merkezleri için öğrenci, kurs ve devam yönetimini kolaylaştıran Android uygulaması."
+      },
+      "challenge": {
+        "az": "Tələbə və kurs məlumatlarını sadə, sürətli və istifadəçi dostu interfeysdə birləşdirmək.",
+        "en": "Combining student and course data in a simple, fast and user-friendly interface.",
+        "tr": "Öğrenci ve kurs verilerini basit, hızlı ve kullanıcı dostu bir arayüzde birleştirmek."
+      },
+      "contributions": {
+        "az": [
+          "Android mobil tətbiq",
+          "Tələbə və kurs modulları",
+          "Davamiyyət izləmə",
+          "REST API inteqrasiyası"
+        ],
+        "en": [
+          "Android mobile application",
+          "Student and course modules",
+          "Attendance tracking",
+          "REST API integration"
+        ],
+        "tr": [
+          "Android mobil uygulama",
+          "Öğrenci ve kurs modülleri",
+          "Devam takibi",
+          "REST API entegrasyonu"
+        ]
+      },
+      "stack": [
+        "Android",
+        "REST API",
+        "Node.js"
+      ],
+      "tags": [
+        "Mobile",
+        "Education",
+        "Android"
+      ]
+    },
+    {
+      "id": "mamedbp",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://mamedbp.com",
+      "githubUrl": "https://mamedbp.com",
+      "repoName": "mamedbp.com",
+      "image": "/images/project-mamedbp.png",
+      "type": {
+        "az": "Korporativ · Səs Avadanlıqları",
+        "en": "Corporate · Audio Equipment",
+        "tr": "Kurumsal · Ses Ekipmanları"
+      },
+      "title": {
+        "az": "MAMEDBP GROUP — Səs və DJ Avadanlıqları",
+        "en": "MAMEDBP GROUP — Sound & DJ Equipment",
+        "tr": "MAMEDBP GROUP — Ses ve DJ Ekipmanları"
+      },
+      "intro": {
+        "az": "Peşəkar səs, işıq və DJ avadanlıqları təqdim edən korporativ ticarət platforması.",
+        "en": "A corporate commerce platform offering professional sound, lighting and DJ equipment.",
+        "tr": "Profesyonel ses, ışık ve DJ ekipmanları sunan kurumsal ticaret platformu."
+      },
+      "challenge": {
+        "az": "Geniş avadanlıq çeşidini dinamik, cəlbedici və mobil-uyğun vitrində təqdim etmək.",
+        "en": "Presenting a broad equipment range in a dynamic, engaging and mobile-friendly showcase.",
+        "tr": "Geniş ekipman yelpazesini dinamik, çekici ve mobil uyumlu bir vitrinde sunmak."
+      },
+      "contributions": {
+        "az": [
+          "Məhsul kataloqu və kateqoriyalar",
+          "Dinamik korporativ dizayn",
+          "Əlaqə və sorğu formaları",
+          "Mobil-uyğun interfeys"
+        ],
+        "en": [
+          "Product catalog and categories",
+          "Dynamic corporate design",
+          "Contact and inquiry forms",
+          "Mobile-friendly interface"
+        ],
+        "tr": [
+          "Ürün kataloğu ve kategoriler",
+          "Dinamik kurumsal tasarım",
+          "İletişim ve talep formları",
+          "Mobil uyumlu arayüz"
+        ]
+      },
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL"
+      ],
+      "tags": [
+        "Korporativ",
+        "Kataloq",
+        "Laravel"
+      ]
+    },
+    {
+      "id": "lili-az",
+      "category": "enterprise",
+      "featured": false,
+      "liveUrl": "https://lili.az",
+      "githubUrl": "https://lili.az",
+      "repoName": "lili.az",
+      "image": "/images/project-lili-az.png",
+      "type": {
+        "az": "Marketplace · Çatdırılma",
+        "en": "Marketplace · Delivery",
+        "tr": "Marketplace · Teslimat"
+      },
+      "title": {
+        "az": "Lili.az — Onlayn Market və Çatdırılma Xidməti",
+        "en": "Lili.az — Online Grocery & Delivery Service",
+        "tr": "Lili.az — Online Market ve Teslimat Hizmeti"
+      },
+      "intro": {
+        "az": "20 dəqiqəlik sürətli çatdırılma ilə onlayn market, endirimlər və gündəlik ehtiyac məhsulları platforması.",
+        "en": "Online grocery platform with 20-minute express delivery, discounts and daily-necessity products.",
+        "tr": "20 dakikalık hızlı teslimat, indirimler ve günlük ihtiyaç ürünleri sunan online market platformu."
+      },
+      "challenge": {
+        "az": "Sürətli çatdırılma modelini real-vaxt məhsul, stok və sifariş idarəetməsi ilə dəstəkləmək.",
+        "en": "Supporting a rapid delivery model with real-time product, stock and order management.",
+        "tr": "Hızlı teslimat modelini gerçek zamanlı ürün, stok ve sipariş yönetimiyle desteklemek."
+      },
+      "contributions": {
+        "az": [
+          "Marketplace məhsul kataloqu",
+          "Endirim və kampaniya sistemi",
+          "Səbət və sifariş axını",
+          "Çatdırılma idarəetməsi"
+        ],
+        "en": [
+          "Marketplace product catalog",
+          "Discount and campaign system",
+          "Cart and order flow",
+          "Delivery management"
+        ],
+        "tr": [
+          "Marketplace ürün kataloğu",
+          "İndirim ve kampanya sistemi",
+          "Sepet ve sipariş akışı",
+          "Teslimat yönetimi"
+        ]
+      },
+      "stack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Redis"
+      ],
+      "tags": [
+        "Marketplace",
+        "Delivery",
+        "Laravel"
+      ]
+    }
+  ]
+}

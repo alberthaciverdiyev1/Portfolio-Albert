@@ -1,0 +1,61 @@
+# Bağımlılıklar
+node_modules/
+.npm/
+.pnpm-store/
+
+# Build / üretilen çıktılar
+dist/
+build/
+*.tsbuildinfo
+vite.config.js.timestamp-*
+
+# Otomatik yedekler ve yüklenen görseller
+server/backups/
+public/images/
+
+# Büyük ikili / medya dosyaları
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.avif
+*.svg
+*.ico
+
+# Kilit dosyaları
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ortam ve sırlar
+.env
+.env.*
+*.local
+
+# Log ve geçici dosyalar
+*.log
+npm-debug.log*
+logs/
+tmp/
+scratch/
+.cache/
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sürüm kontrolü
+.git/
+.gitignore
+
+# SQLite veritabani (ikili)
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+
+# SQLite'tan uretilen frontend JSON
+src/data.json
