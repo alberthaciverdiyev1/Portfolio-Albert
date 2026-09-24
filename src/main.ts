@@ -55,32 +55,6 @@ function render() {
       </div>
     </section>
 
-    <!-- ============================ STATS ============================ -->
-    <section class="stats-band">
-      <div class="container stats-grid">
-        ${metrics.map(m => `
-          <div class="stat">
-            <span class="stat-num">${m.num}</span>
-            <span class="stat-title">${t(m.title)}</span>
-            <span class="stat-desc">${t(m.desc)}</span>
-          </div>
-        `).join('')}
-      </div>
-    </section>
-
-    <!-- ============================ FOCUS / WHAT I DO ============================ -->
-    <section class="section container">
-      <div class="focus-grid">
-        ${focusAreas.map(fa => `
-          <div class="focus-card">
-            <span class="focus-icon">${fa.icon}</span>
-            <h3>${t(fa.title)}</h3>
-            <p>${t(fa.desc)}</p>
-          </div>
-        `).join('')}
-      </div>
-    </section>
-
     <!-- ============================ SELECTED WORK ============================ -->
     <section class="section section-alt">
       <div class="container">

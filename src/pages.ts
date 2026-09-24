@@ -225,28 +225,6 @@ if (page === 'projects') {
           </div>
         </div>
 
-        <!-- HIGHLIGHTS / QUICK METRICS -->
-        <div class="metrics-grid about-metrics-grid">
-          ${metrics.map(m => `
-            <div class="metric-card">
-              <span class="metric-num">${m.num}</span>
-              <span class="metric-title">${t(m.title)}</span>
-              <span class="metric-desc">${t(m.desc)}</span>
-            </div>
-          `).join('')}
-        </div>
-
-        <!-- 4 FOCUS AREAS -->
-        <div class="focus-grid">
-          ${focusAreas.map(fa => `
-            <div class="focus-card">
-              <span class="focus-icon">${fa.icon}</span>
-              <h3>${t(fa.title)}</h3>
-              <p>${t(fa.desc)}</p>
-            </div>
-          `).join('')}
-        </div>
-
         <!-- TECHNICAL SKILLS -->
         <div class="about-skills-block">
           <div class="block-head">
