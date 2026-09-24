@@ -623,9 +623,9 @@ h1, h2, h3, h4, p {
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    gap: 8px;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+    gap: 6px;
   }
 
   .project-filter-bar::-webkit-scrollbar {
@@ -635,56 +635,49 @@ h1, h2, h3, h4, p {
   .filter-btn {
     flex: 0 0 auto;
     scroll-snap-align: start;
-    padding: 7px 14px;
-    font-size: 0.78rem;
+    padding: 6px 12px;
+    font-size: 0.74rem;
     white-space: nowrap;
   }
 
-  /* 2-column clean grid */
+  /* 2-column clean compact grid */
   .project-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: 12px;
+    gap: 10px;
   }
 
   .project-card {
-    border-radius: 12px;
+    border-radius: 10px;
   }
 
   .project-card-media {
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 9.5;
   }
 
   .project-card-type {
-    top: 8px;
-    left: 8px;
-    font-size: 0.58rem;
-    padding: 3px 8px;
-    letter-spacing: 0.03em;
+    top: 6px;
+    left: 6px;
+    font-size: 0.52rem;
+    padding: 2px 6px;
+    letter-spacing: 0.02em;
+  }
+
+  .project-card-num-badge {
+    top: 6px;
+    right: 6px;
+    font-size: 0.55rem;
+    padding: 2px 5px;
   }
 
   .project-card-copy {
-    padding: 12px 10px 10px;
-  }
-
-  .project-card-meta {
-    margin-bottom: 6px;
-  }
-
-  .project-card-num {
-    font-size: 0.65rem;
-  }
-
-  .project-github-pill {
-    font-size: 0.64rem;
-    padding: 2px 7px;
-    border-radius: 4px;
+    padding: 8px 8px 6px;
   }
 
   .project-card h2 {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 8px;
+    line-height: 1.22;
+    margin-bottom: 4px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -692,21 +685,20 @@ h1, h2, h3, h4, p {
   }
 
   .project-card-stack {
-    gap: 4px;
-    margin-bottom: 8px;
-    padding-top: 8px;
+    gap: 3px;
+    margin-bottom: 6px;
+    padding-top: 6px;
     flex-wrap: nowrap;
     overflow: hidden;
   }
 
   .project-card-stack span {
-    font-size: 0.62rem;
-    padding: 2px 6px;
-    border-radius: 4px;
+    font-size: 0.56rem;
+    padding: 1px 4px;
+    border-radius: 3px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    max-width: 100%;
   }
 
   .project-card-stack span:nth-child(n+3) {
@@ -714,22 +706,22 @@ h1, h2, h3, h4, p {
   }
 
   .project-card-footer {
-    padding-top: 8px;
-    gap: 6px;
+    padding-top: 6px;
+    gap: 4px;
     align-items: center;
     justify-content: space-between;
   }
 
   .card-detail-btn {
-    font-size: 0.74rem;
-    gap: 3px;
+    font-size: 0.68rem;
+    gap: 2px;
     font-weight: 600;
   }
 
   .card-repo-btn {
-    font-size: 0.68rem;
-    padding: 3px 7px;
-    border-radius: 4px;
+    font-size: 0.62rem;
+    padding: 2px 5px;
+    border-radius: 3px;
     background: var(--bg, #f6f7f3);
     border: 1px solid var(--line);
   }
@@ -737,28 +729,26 @@ h1, h2, h3, h4, p {
 
 @media (max-width: 420px) {
   .project-card-grid {
-    gap: 10px;
+    gap: 8px;
   }
 
   .project-card-copy {
-    padding: 10px 8px 8px;
+    padding: 7px 6px 5px;
   }
 
   .project-card h2 {
-    font-size: 0.84rem;
+    font-size: 0.78rem;
   }
 
   .card-detail-btn {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 
   .card-repo-btn {
-    font-size: 0.64rem;
-    padding: 2px 5px;
+    font-size: 0.58rem;
+    padding: 1px 4px;
   }
 }
-
-
 
 .project-card {
   display: flex;
@@ -776,10 +766,10 @@ h1, h2, h3, h4, p {
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
   border-color: var(--primary, #111318);
-  box-shadow: 0 16px 32px -8px rgba(17, 19, 24, 0.12),
-              0 4px 12px rgba(17, 19, 24, 0.05);
+  box-shadow: 0 12px 24px -6px rgba(17, 19, 24, 0.1),
+              0 4px 10px rgba(17, 19, 24, 0.04);
 }
 
 .project-card-media {
@@ -788,7 +778,7 @@ h1, h2, h3, h4, p {
   background: #0f141c;
   border-bottom: 1px solid var(--line-subtle);
   cursor: pointer;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
 }
 
 .project-card img {
@@ -800,29 +790,44 @@ h1, h2, h3, h4, p {
 }
 
 .project-card:hover img {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 
 .project-card-type {
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 10px;
+  left: 10px;
   background: rgba(17, 19, 24, 0.82);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.15);
   color: #f9fafb;
-  font: 600 0.68rem var(--font-mono);
-  letter-spacing: 0.05em;
+  font: 600 0.65rem var(--font-mono);
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding: 4px 10px;
+  padding: 3px 8px;
   border-radius: 99px;
   z-index: 2;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
+.project-card-num-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(17, 19, 24, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #e5e7eb;
+  font: 600 0.65rem var(--font-mono);
+  padding: 3px 8px;
+  border-radius: 99px;
+  z-index: 2;
+}
+
 .project-card-copy {
-  padding: 22px;
+  padding: 14px 14px 12px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -863,12 +868,16 @@ h1, h2, h3, h4, p {
 }
 
 .project-card h2 {
-  margin: 0 0 8px;
-  font-size: 1.18rem;
-  line-height: 1.32;
-  letter-spacing: -0.025em;
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
   font-weight: 600;
   color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .project-card h2 a {
@@ -885,7 +894,7 @@ h1, h2, h3, h4, p {
   color: var(--muted);
   font-size: 0.88rem;
   line-height: 1.55;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   flex-grow: 1;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -896,18 +905,18 @@ h1, h2, h3, h4, p {
 .project-card-stack {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 16px;
-  padding-top: 14px;
+  gap: 5px;
+  margin-bottom: 10px;
+  padding-top: 10px;
   border-top: 1px solid var(--line-subtle);
 }
 
 .project-card-stack span {
-  font: 500 0.68rem var(--font-mono);
+  font: 500 0.65rem var(--font-mono);
   color: #4b5563;
   background: var(--bg, #f6f7f3);
   border: 1px solid var(--line);
-  padding: 3px 8px;
+  padding: 2px 7px;
   border-radius: 4px;
   letter-spacing: 0.02em;
 }
@@ -917,7 +926,7 @@ h1, h2, h3, h4, p {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid var(--line);
-  padding-top: 14px;
+  padding-top: 10px;
   margin-top: auto;
 }
 

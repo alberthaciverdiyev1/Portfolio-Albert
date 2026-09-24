@@ -49,14 +49,9 @@ if (page === 'projects') {
               <div class="project-card-media" role="button" data-project-id="${p.id}" tabindex="0">
                 <img src="${p.image}" alt="${t(p.title)}" loading="lazy">
                 <span class="project-card-type">${t(p.type)}</span>
+                <span class="project-card-num-badge">${num}</span>
               </div>
               <div class="project-card-copy">
-                <div class="project-card-meta">
-                  <span class="project-card-num">${num}</span>
-                  <a class="project-github-pill" href="${mainLink}" target="_blank" rel="noreferrer" title="${linkLabel}">
-                    <span>${linkLabel}</span> ↗
-                  </a>
-                </div>
                 <h2><a href="javascript:void(0)" data-project-id="${p.id}">${t(p.title)}</a></h2>
                 <div class="project-card-stack">
                   ${(p.stack || pAny.tags || []).slice(0, 3).map((s: string) => `<span>${s}</span>`).join('')}
